@@ -1,3 +1,4 @@
+import Glasses from './glasses'
 const Logo = _ =>
   <svg
     className="logo"
@@ -16,20 +17,6 @@ const Logo = _ =>
       }
     `}</style>
   </svg>
-
-const Glasses = _ =>
-  <div class="glasses">
-    <img class="glassesImg" src="/static/img/glasses.png" />
-    <style jsx>{`
-      .glasses {
-        position: absolute;
-        width: 80%;
-      }
-      .glassesImg {
-        max-width: 100%;
-      }
-    `}</style>
-  </div>
 
 export default _ =>
   <header className="header">
