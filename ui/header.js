@@ -9,19 +9,37 @@ const Logo = _ =>
     <path d="M520.5 78.1z" />
     <style jsx>{`
       .logo {
-        fill: #61DAFB;
-        height: 50vw;
+        position: absolute;
+        fill: #61dafb;
         width: 50vw;
+        height: auto;
       }
     `}</style>
   </svg>
 
+const Glasses = _ =>
+  <div class="glasses">
+    <img class="glassesImg" src="/static/img/glasses.png" />
+    <style jsx>{`
+      .glasses {
+        position: absolute;
+        width: 80%;
+      }
+      .glassesImg {
+        max-width: 100%;
+      }
+    `}</style>
+  </div>
+
 export default _ =>
   <header className="header">
     <div className="logoContainer">
+      <Glasses />
       <Logo />
     </div>
-    <h1 className="title">Styling<br />React<br /> Components</h1>
+    <h1 className="title">
+      Styling<br />React<br /> Components
+    </h1>
     <style jsx>{`
       .header {
         display: flex;
@@ -33,6 +51,8 @@ export default _ =>
         font-size: 3em;
       }
       .logoContainer {
+        height: 50vw;
+        width: 50vw;
       }
     `}</style>
   </header>
