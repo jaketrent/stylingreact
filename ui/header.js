@@ -48,7 +48,7 @@ export default _ =>
       }
       @media screen and (min-width: 1441px) {
         .title {
-          font-size: 4em;
+          font-size: 3.7em;
         }
       }
     `}</style>

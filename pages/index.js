@@ -1,3 +1,4 @@
+import Caption from '../ui/caption'
 import Content from '../ui/content'
 import GlobalStyles from '../ui/global-styles'
 import Head from '../ui/head'
@@ -11,5 +12,7 @@ export default _ =>
       <Head />
 
       <Header />
+      <hr />
+      <Caption />
     </Content>
   </div>
