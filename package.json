@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "next",
-    "build": "next build",
+    "deploy": "next build && next export -o docs && git add docs && git commit -m \"chore: regen site\" && git push origin master",
     "precommit": "lint-staged",
     "start": "next start",
     "test": "echo \"Error: no test specified\" && exit 1"
