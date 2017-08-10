@@ -3,8 +3,8 @@ export default _ =>
     <img className="glassesImg" src="/static/img/glasses.png" />
     <style jsx>{`
       .glasses {
-        position: absolute;
-        width: 80%;
+        position: relative;
+        width: 42%;
       }
       .glassesImg {
         max-width: 100%;

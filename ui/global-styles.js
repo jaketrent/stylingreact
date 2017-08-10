@@ -3,15 +3,18 @@ export default _ =>
     * {
       box-sizing: border-box;
     }
-    html, body {
+    html,
+    body {
       margin: 0;
       padding: 0;
       font-family: sans-serif;
-      background-color: #2C3038;
+      background-color: #2c3038;
       color: #fff;
-      font-size: 16px;
+      font-size: 9px;
     }
-    h1, h2, h3 {
+    h1,
+    h2,
+    h3 {
       font-weight: 700;
       margin: 0;
       font-family: 'Libre Franklin', sans-serif;
@@ -20,7 +23,7 @@ export default _ =>
       display: inline-block;
       color: #fff;
       text-decoration: none;
-      border-bottom: 1px solid #0F6402;
+      border-bottom: 1px solid #0f6402;
       margin-bottom: 2px;
       cursor: pointer;
     }
@@ -38,14 +41,20 @@ export default _ =>
       max-width: 100%;
     }
     @media screen and (min-width: 426px) {
+      html,
+      body {
+        font-size: 11px;
+      }
     }
     @media screen and (min-width: 769px) {
-      html, body {
+      html,
+      body {
         font-size: 18px;
       }
     }
     @media screen and (min-width: 1441px) {
-      html, body {
+      html,
+      body {
         font-size: 22px;
       }
     }

@@ -1,13 +1,15 @@
+import Content from '../ui/content'
 import GlobalStyles from '../ui/global-styles'
 import Head from '../ui/head'
 import Header from '../ui/header'
 
 export default _ =>
   <div>
-    <GlobalStyles />
+    <Content>
+      <GlobalStyles />
 
-    <Head />
+      <Head />
 
-    <Header />
-
+      <Header />
+    </Content>
   </div>

@@ -10,9 +10,8 @@ const Logo = _ =>
     <path d="M520.5 78.1z" />
     <style jsx>{`
       .logo {
-        position: absolute;
         fill: #61dafb;
-        width: 50vw;
+        width: auto;
         height: auto;
       }
     `}</style>
@@ -21,7 +20,7 @@ const Logo = _ =>
 export default _ =>
   <header className="header">
     <div className="logoContainer">
-      <Glasses />
+      {/* <Glasses /> */}
       <Logo />
     </div>
     <h1 className="title">
@@ -35,11 +34,22 @@ export default _ =>
       .title {
         color: white;
         text-transform: uppercase;
-        font-size: 3em;
+        font-size: 2.9em;
       }
       .logoContainer {
-        height: 50vw;
         width: 50vw;
+      }
+      @media screen and (min-width: 426px) {
+        .title {
+          font-size: 3.1em;
+        }
+      }
+      @media screen and (min-width: 769px) {
+      }
+      @media screen and (min-width: 1441px) {
+        .title {
+          font-size: 4em;
+        }
       }
     `}</style>
   </header>
