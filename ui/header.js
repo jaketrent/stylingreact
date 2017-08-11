@@ -15,7 +15,12 @@ const Logo = _ =>
         fill: #61dafb;
         width: auto;
         height: auto;
-        margin: 0 3em;
+        margin: 0 20vw;
+      }
+      @media screen and (min-width: 650px) {
+        .logo {
+          margin: 0 1em;
+        }
       }
     `}</style>
   </svg>
