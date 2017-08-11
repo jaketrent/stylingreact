@@ -20,20 +20,28 @@ export default _ =>
       <Caption />
       <Main>
         <Section>
-          <SectionHeader>Rebel Alliance</SectionHeader>
-          <SectionBody />
+          <SectionHeader src="../static/img/fillerIcon1.png">
+            Rebel Alliance
+          </SectionHeader>
+          <SectionBody src="http://lorempixel.com/500/320/abstract/1" />
         </Section>
         <Section>
-          <SectionHeader>Rebel Alliance</SectionHeader>
-          <SectionBody />
+          <SectionHeader src="../static/img/fillerIcon2.png">
+            Rebel Alliance
+          </SectionHeader>
+          <SectionBody src="http://lorempixel.com/500/320/abstract/2/" />
         </Section>
         <Section>
-          <SectionHeader>Rebel Alliance</SectionHeader>
-          <SectionBody />
+          <SectionHeader src="../static/img/fillerIcon3.png">
+            Rebel Alliance
+          </SectionHeader>
+          <SectionBody src="http://lorempixel.com/500/320/abstract/3" />
         </Section>
         <Section>
-          <SectionHeader>Rebel Alliance</SectionHeader>
-          <SectionBody />
+          <SectionHeader src="../static/img/fillerIcon4.png">
+            Rebel Alliance
+          </SectionHeader>
+          <SectionBody src="http://lorempixel.com/500/320/abstract/4" />
         </Section>
       </Main>
     </Content>

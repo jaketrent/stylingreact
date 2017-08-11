@@ -1,4 +1,4 @@
-export default _ =>
+export default props =>
   <div className="sectionBody">
     <p>
       Run! Yes. A Jedi's strength flows from the Force. But beware of the dark
@@ -7,4 +7,11 @@ export default _ =>
       stronger? No...no...no. But how am I to know the good side from the bad?
       You will know. But tell me why I can't... No, no, there is no why.
     </p>
+    <img className="sectionPicture" src={props.src} />
+    <style jsx>{`
+      .sectionPicture {
+        width: 100%;
+        height: 100%;
+      }
+    `}</style>
   </div>

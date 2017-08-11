@@ -1,6 +1,6 @@
 export default props =>
   <div className="sectionHeader">
-    <img className="icon" src="/static/img/fillerIcon2.png" />
+    <img className="icon" src={props.src} />
     <h2>
       {props.children}
     </h2>
