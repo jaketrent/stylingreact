@@ -10,7 +10,7 @@ export default _ =>
       font-family: sans-serif;
       background-color: #2c3038;
       color: #fff;
-      font-size: 9px;
+      font-size: 16px;
     }
     h1,
     h2,
@@ -41,21 +41,17 @@ export default _ =>
       max-width: 100%;
     }
     @media screen and (min-width: 426px) {
-      html,
-      body {
-        font-size: 11px;
-      }
     }
     @media screen and (min-width: 769px) {
       html,
       body {
-        font-size: 18px;
+        font-size: 22px;
       }
     }
     @media screen and (min-width: 1441px) {
       html,
       body {
-        font-size: 22px;
+        font-size: 24px;
       }
     }
   `}</style>
