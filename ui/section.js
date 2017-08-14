@@ -10,7 +10,5 @@ export default props =>
           max-width: 50%;
         }
       }
-      @media screen and (min-width: 1441px) {
-      }
     `}</style>
   </div>

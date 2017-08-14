@@ -21,5 +21,8 @@ export default props =>
         align-items: center;
         padding: 0 0 0 0;
       }
+      h2 {
+        text-transform: uppercase;
+      }
     `}</style>
   </div>
