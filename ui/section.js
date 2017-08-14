@@ -4,7 +4,7 @@ export default props =>
     <style jsx>{`
       .section {
         max-width: 550px;
-        padding: 35px 10px 10px 35px;
+        padding: 35px 10px 10px 30px;
       }
       @media screen and (min-width: 769px) {
         .section {

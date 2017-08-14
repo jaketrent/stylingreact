@@ -7,14 +7,10 @@ export default _ =>
         font-size: 1.3em;
         text-transform: uppercase;
         letter-spacing: 1px;
+        padding: 40px 0 15px 0;
       }
       p {
         margin: 0;
-      }
-      @media screen and (min-width: 1441px) {
-        .caption {
-          font-size: 1em;
-        }
       }
     `}</style>
   </div>
