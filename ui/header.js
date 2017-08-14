@@ -16,6 +16,7 @@ const Logo = _ =>
         width: auto;
         height: auto;
         margin: 0 20vw;
+        position: relative;
       }
       @media screen and (min-width: 650px) {
         .logo {
@@ -28,7 +29,7 @@ const Logo = _ =>
 export default _ =>
   <header className="header">
     <div className="logoContainer">
-      {/* <Glasses /> */}
+      <Glasses />
       <Logo />
     </div>
     <h1 className="title">
@@ -51,6 +52,8 @@ export default _ =>
       }
       .logoContainer {
         width: 100%;
+        position: relative;
+        height: 100%;
       }
       @media screen and (min-width: 650px) {
         .header {
@@ -60,18 +63,11 @@ export default _ =>
           flex: 1;
           font-size: 3.1em;
         }
-        .logoContainer {
-          flex: 1;
-        }
       }
       @media screen and (min-width: 1024px) {
         .title {
           font-size: 3.7em;
         }
-        .logoContainer {
-        }
-      }
-      @media screen and (min-width: 1441px) {
       }
     `}</style>
   </header>
