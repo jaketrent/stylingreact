@@ -11,6 +11,22 @@ export default _ =>
       }
       .glassesImg {
         width: 100%;
+        animation-name: bounceDown;
+        animation-duration: 5s;
+      }
+      @keyframes bounceDown {
+        0% {
+          transform: translate3d(-150px, -500px, 0);
+        }
+        70% {
+          transform: translate3d(0, 0, 0);
+        }
+        84% {
+          transform: translate3d(0, -10px, 0);
+        }
+        100% {
+          transform: translate3d(0, 0, 0);
+        }
       }
       @media screen and (min-width: 650px) {
         .glasses {
