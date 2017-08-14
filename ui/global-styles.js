@@ -8,7 +8,11 @@ export default _ =>
       margin: 0;
       padding: 0;
       font-family: sans-serif;
-      background-color: #2c3038;
+       {
+        /* background-color: #2c3038; */
+      }
+      background: linear-gradient(120deg, #2c3038, #191b1f);
+      background-attachment: fixed;
       color: #fff;
       font-size: 16px;
     }
