@@ -3,7 +3,7 @@ export default props =>
     {props.children}
     <style jsx>{`
       .section {
-        max-width: 520px;
+        max-width: 540px;
       }
     `}</style>
   </div>

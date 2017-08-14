@@ -8,7 +8,7 @@ export default props =>
     </h2>
     <style jsx>{`
       .icon {
-        width: 8ch;
+        width: 14%;
         height: auto;
         padding-right: 20px;
       }
@@ -19,9 +19,7 @@ export default props =>
       .sectionHeader {
         display: flex;
         align-items: center;
-        padding: 8ch 0 0 0;
-      }
-      h2 {
+        padding: 0 0 0 0;
       }
     `}</style>
   </div>
