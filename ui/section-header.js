@@ -19,7 +19,6 @@ export default props =>
       .sectionHeader {
         display: flex;
         align-items: center;
-        padding: 0 0 0 0;
       }
       h2 {
         text-transform: uppercase;
