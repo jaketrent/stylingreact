@@ -1,6 +1,8 @@
 export default props =>
   <div className="sectionHeader">
-    <img className="icon" src={props.src} />
+    <div className="icon">
+      {props.icon}
+    </div>
     <h2>
       {props.children}
     </h2>
@@ -9,6 +11,10 @@ export default props =>
         width: 8ch;
         height: auto;
         padding-right: 20px;
+      }
+      .icon :global(svg) {
+        fill: #61dafb;
+        stroke: #61dafb;
       }
       .sectionHeader {
         display: flex;
