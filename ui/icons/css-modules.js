@@ -51,7 +51,7 @@ export default _ =>
 
       <path
         d="M72 214  L72 909 L767 909 L767 214 L72 214 Z"
-        stroke-width="85"
+        strokeWidth="85"
         fill="none"
       />
     </g>

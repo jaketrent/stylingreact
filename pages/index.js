@@ -13,6 +13,7 @@ import Section from '../ui/section'
 import SectionBody from '../ui/section-body'
 import SectionHeader from '../ui/section-header'
 import Table from '../ui/table'
+import Trial from '../ui/trial'
 import Video from '../ui/video'
 
 export default _ =>
@@ -28,24 +29,24 @@ export default _ =>
       <Main>
         <Section>
           <SectionHeader icon={<InlineCss />}>Inline Styles</SectionHeader>
-          <SectionBody src="http://lorempixel.com/500/320/abstract/1" />
+          <SectionBody src="http://lorempixel.com/500/300/abstract/1" />
         </Section>
 
         <Section>
           <SectionHeader icon={<Radium />}>Radium</SectionHeader>
-          <SectionBody src="http://lorempixel.com/500/320/abstract/2/" />
+          <SectionBody src="http://lorempixel.com/500/300/abstract/2/" />
         </Section>
 
         <Section>
           <SectionHeader icon={<ExternalCss />}>
             External Stylesheet
           </SectionHeader>
-          <SectionBody src="http://lorempixel.com/500/320/abstract/3" />
+          <SectionBody src="http://lorempixel.com/500/300/abstract/3" />
         </Section>
 
         <Section>
           <SectionHeader icon={<CssModules />}>CSS Modules</SectionHeader>
-          <SectionBody src="http://lorempixel.com/500/320/abstract/4" />
+          <SectionBody src="http://lorempixel.com/500/300/abstract/4" />
         </Section>
 
         <Section>
@@ -61,8 +62,12 @@ export default _ =>
         </Section>
 
         <Section>
-          <Table />
+          <Trial />
         </Section>
+
+        {/* <Section>
+          <Table />
+        </Section> */}
       </Main>
     </Content>
   </div>
