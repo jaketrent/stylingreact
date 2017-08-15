@@ -1,5 +1,6 @@
 import Caption from '../ui/caption'
 import Content from '../ui/content'
+import Course from '../ui/course'
 import CssModules from '../ui/icons/css-modules'
 import ExternalCss from '../ui/icons/external-css2'
 import GlobalStyles from '../ui/global-styles'
@@ -40,6 +41,9 @@ export default _ =>
         <Section>
           <SectionHeader icon={<CssModules />}>CSS Modules</SectionHeader>
           <SectionBody src="http://lorempixel.com/500/320/abstract/4" />
+        </Section>
+        <Section>
+          <Course />
         </Section>
       </Main>
     </Content>
