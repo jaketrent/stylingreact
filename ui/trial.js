@@ -18,11 +18,11 @@ export default _ =>
         font-size: 1.2em;
         text-transform: uppercase;
         text-shadow: -3px -1px 6px black;
-        box-shadow: -3px -3px 4px black;
+        box-shadow: -5px -5px 4px black;
       }
       .signUpLink:hover {
-        background-color: #16c9f9;
-        color: #e3e4e4;
+        background-color: #4ed6fb;
+        color: #f5f5f5;
         text-shadow: -1.5px -1px 6px black;
         box-shadow: none;
       }
