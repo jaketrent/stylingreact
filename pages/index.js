@@ -13,6 +13,7 @@ import Section from '../ui/section'
 import SectionBody from '../ui/section-body'
 import SectionHeader from '../ui/section-header'
 import Table from '../ui/table'
+import Video from '../ui/video'
 
 export default _ =>
   <div>
@@ -49,6 +50,14 @@ export default _ =>
 
         <Section>
           <Course />
+        </Section>
+
+        <Section>
+          <Video
+            src="https://www.youtube.com/embed/WhiZlvRzbrc"
+            height="315"
+            width="560"
+          />
         </Section>
 
         <Section>
