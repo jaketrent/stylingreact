@@ -12,6 +12,7 @@ import Radium from '../ui/icons/radium'
 import Section from '../ui/section'
 import SectionBody from '../ui/section-body'
 import SectionHeader from '../ui/section-header'
+import Table from '../ui/table'
 
 export default _ =>
   <div>
@@ -28,22 +29,30 @@ export default _ =>
           <SectionHeader icon={<InlineCss />}>Inline Styles</SectionHeader>
           <SectionBody src="http://lorempixel.com/500/320/abstract/1" />
         </Section>
+
         <Section>
           <SectionHeader icon={<Radium />}>Radium</SectionHeader>
           <SectionBody src="http://lorempixel.com/500/320/abstract/2/" />
         </Section>
+
         <Section>
           <SectionHeader icon={<ExternalCss />}>
             External Stylesheet
           </SectionHeader>
           <SectionBody src="http://lorempixel.com/500/320/abstract/3" />
         </Section>
+
         <Section>
           <SectionHeader icon={<CssModules />}>CSS Modules</SectionHeader>
           <SectionBody src="http://lorempixel.com/500/320/abstract/4" />
         </Section>
+
         <Section>
           <Course />
+        </Section>
+
+        <Section>
+          <Table />
         </Section>
       </Main>
     </Content>
