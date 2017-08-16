@@ -3,12 +3,13 @@ export default props =>
     {props.children}
     <style jsx>{`
       .section {
-        max-width: 550px;
         padding: 35px 10px 30px 10px;
+        width: 100%;
       }
       @media screen and (min-width: 769px) {
         .section {
-          max-width: 50%;
+          flex: 1;
+          min-width: 50%;
         }
       }
     `}</style>

@@ -26,6 +26,7 @@ export default _ =>
       <Header />
       <hr />
       <Caption />
+
       <Main>
         <Section>
           <SectionHeader icon={<InlineCss />}>Inline Styles</SectionHeader>
