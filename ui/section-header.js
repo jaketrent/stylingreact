@@ -1,19 +1,26 @@
+const renderIcon = props =>
+  props.icon
+    ? <div className="icon">
+        {props.icon}
+        <style jsx>{`
+          .icon {
+            width: 80px;
+            padding-right: 20px;
+          }
+          .icon :global(svg) {
+            fill: #61dafb;
+          }
+        `}</style>
+      </div>
+    : null
+
 export default props =>
   <div className="header">
-    <div className="icon">
-      {props.icon}
-    </div>
+    {renderIcon(props)}
     <h2 className="title">
       {props.children}
     </h2>
     <style jsx>{`
-      .icon {
-        width: 80px;
-        padding-right: 20px;
-      }
-      .icon :global(svg) {
-        fill: #61dafb;
-      }
       .header {
         display: flex;
         align-items: center;
