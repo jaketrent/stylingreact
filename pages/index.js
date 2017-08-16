@@ -3,6 +3,7 @@ import Buffer from '../ui/buffer'
 import Content from '../ui/content'
 import CssModules from '../ui/icons/css-modules'
 import ExternalCss from '../ui/icons/external-css'
+import Footer from '../ui/footer'
 import GlobalStyles from '../ui/global-styles'
 import Head from '../ui/head'
 import Header from '../ui/header'
@@ -112,5 +113,6 @@ export default _ =>
 
         <Subscribe />
       </Main>
+      <Footer />
     </Content>
   </div>
