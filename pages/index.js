@@ -84,15 +84,14 @@ export default _ =>
             the most popular and promising approaches to styling React
             components. We start with a small UI project that is fully
             implemented in React and discover how it feels to try out each one
-            of these approaches to layer on some sweet styles.
+            of these approaches to layer on some sweet styles.{' '}
           </p>
           <p>
             You'll also get some great background on styling in web components.
             And there's a short, gentle introduction to how to handle the basics
-            of CSS inside of Webpack.
+            of CSS inside of Webpack.{' '}
           </p>
         </Section>
-
         <Section>
           <Video
             src="https://www.youtube.com/embed/WhiZlvRzbrc"
@@ -106,6 +105,7 @@ export default _ =>
         </Section>
 
         <Section>
+          <SectionHeader>Contents</SectionHeader>
           <Table />
         </Section>
       </Main>

@@ -8,9 +8,6 @@ export default _ =>
       margin: 0;
       padding: 0;
       font-family: sans-serif;
-       {
-        /* background-color: #2c3038; */
-      }
       background: linear-gradient(120deg, #2c3038, #191b1f);
       background-attachment: fixed;
       color: #fff;
@@ -27,12 +24,13 @@ export default _ =>
       display: inline-block;
       color: #fff;
       text-decoration: none;
-      border-bottom: 1px solid #0f6402;
+      border-bottom: 1px solid #61dafb;
       margin-bottom: 2px;
       cursor: pointer;
+      transition: color 250ms;
     }
     a:hover {
-      color: #0f6402;
+      color: #61dafb;
     }
     ol {
       margin: 0;

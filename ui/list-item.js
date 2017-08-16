@@ -7,14 +7,12 @@ export default props =>
       {props.time}
     </p>
     <style jsx>{`
-        .listItem {
-            display: flex;
-            justify-content: space-between;
-            margin: 1em 0;
-
-        }
+      .listItem {
+        display: flex;
+        justify-content: space-between;
+        margin: 1em 0;
+      }
         .name {
-            border-bottom: 1px solid #61dafb;
             margin-right: 2.2em;
         }
         .time {
