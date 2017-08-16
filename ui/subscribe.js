@@ -9,6 +9,9 @@ export default _ =>
     noValidate
   >
     <h2 className="title">Get new courses</h2>
+    <div className="glassesContainer">
+      <img className="glasses" src="../static/img/glasses.png" />
+    </div>
     <label htmlFor="mce-EMAIL" className="mail__label">
       Receive news about new courses I release!
     </label>
@@ -44,7 +47,15 @@ export default _ =>
         align-items: center;
         font-size: 1.5em;
         text-transform: uppercase;
-        margin: 2em auto;
+        margin: 2em auto .5em auto;
+      }
+      .glasses {
+        width: 40%;
+        margin: 0 30%;
+      }
+      .glassesContainer {
+        width: 100%;
+        margin: .5em;
       }
       .mail {
         display: flex;
