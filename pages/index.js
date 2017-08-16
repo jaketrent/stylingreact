@@ -65,9 +65,9 @@ export default _ =>
           <Trial />
         </Section>
 
-        {/* <Section>
+        <Section>
           <Table />
-        </Section> */}
+        </Section>
       </Main>
     </Content>
   </div>
