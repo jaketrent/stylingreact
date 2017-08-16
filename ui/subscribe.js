@@ -8,8 +8,9 @@ export default _ =>
     target="_blank"
     noValidate
   >
+    <h2 className="title">Get new courses</h2>
     <label htmlFor="mce-EMAIL" className="mail__label">
-      Get new courses
+      Receive news about new courses I release!
     </label>
     <input
       type="email"
@@ -38,6 +39,13 @@ export default _ =>
       />
     </div>
     <style jsx>{`
+      .title {
+        display: flex;
+        align-items: center;
+        font-size: 1.5em;
+        text-transform: uppercase;
+        margin: 2em auto;
+      }
       .mail {
         display: flex;
         flex-direction: column;
