@@ -15248,16 +15248,16 @@ object-assign
       t.default = function(e) {
         return u.default.createElement(
           'div',
-          { className: 'glasses', 'data-jsx': 312886955 },
+          { className: 'glasses', 'data-jsx': 1250690217 },
           u.default.createElement('img', {
             className: 'glassesImg',
             src: '/static/img/glasses.png',
-            'data-jsx': 312886955
+            'data-jsx': 1250690217
           }),
           u.default.createElement(a.default, {
-            styleId: 312886955,
+            styleId: 1250690217,
             css:
-              '.glasses[data-jsx="312886955"]{position:absolute;z-index:1;margin:18% 20vw 18% 20vw}.glassesImg[data-jsx="312886955"]{width:100%;-webkit-animation:falldatajsx312886955 5s 1s;animation:falldatajsx312886955 5s 1s}@-webkit-keyframes falldatajsx312886955{0%{-webkit-transform:translate3d(0,-500px,0);-ms-transform:translate3d(0,-500px,0);transform:translate3d(0,-500px,0)}70%{-webkit-transform:translate3d(0,0,0);-ms-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}100%{-webkit-transform:translate3d(0,0,0);-ms-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}}@keyframes falldatajsx312886955{0%{-webkit-transform:translate3d(0,-500px,0);-ms-transform:translate3d(0,-500px,0);transform:translate3d(0,-500px,0)}70%{-webkit-transform:translate3d(0,0,0);-ms-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}100%{-webkit-transform:translate3d(0,0,0);-ms-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}}@media screen and (min-width:650px){.glasses[data-jsx="312886955"]{margin:30% 0 0 0}}@media screen and (min-width:1024px){.title[data-jsx="312886955"]{font-size:3.7em}}'
+              '.glasses[data-jsx="1250690217"]{position:absolute;z-index:1;margin:18% 20vw 18% 20vw}.glassesImg[data-jsx="1250690217"]{width:100%;-webkit-animation:falldatajsx1250690217 5s 0.5s forwards;animation:falldatajsx1250690217 5s 0.5s forwards;-webkit-transform:translate3d(0,-500px,0);-ms-transform:translate3d(0,-500px,0);transform:translate3d(0,-500px,0)}@-webkit-keyframes falldatajsx1250690217{100%{-webkit-transform:translate3d(0,0,0);-ms-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}}@keyframes falldatajsx1250690217{100%{-webkit-transform:translate3d(0,0,0);-ms-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}}@media screen and (min-width:650px){.glasses[data-jsx="1250690217"]{margin:30% 0 0 0}}@media screen and (min-width:1024px){.title[data-jsx="1250690217"]{font-size:3.7em}}'
           })
         )
       }
