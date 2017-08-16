@@ -12,6 +12,7 @@ import Radium from '../ui/icons/radium'
 import Section from '../ui/section'
 import SectionBody from '../ui/section-body'
 import SectionHeader from '../ui/section-header'
+import Subscribe from '../ui/subscribe'
 import Table from '../ui/table'
 import Trial from '../ui/trial'
 import Video from '../ui/video'
@@ -93,6 +94,8 @@ export default _ =>
         <Section>
           <Table />
         </Section>
+
+        <Subscribe />
       </Main>
     </Content>
   </div>
