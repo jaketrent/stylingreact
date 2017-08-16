@@ -1,6 +1,6 @@
 import Caption from '../ui/caption'
+import Buffer from '../ui/buffer'
 import Content from '../ui/content'
-import Course from '../ui/course'
 import CssModules from '../ui/icons/css-modules'
 import ExternalCss from '../ui/icons/external-css'
 import GlobalStyles from '../ui/global-styles'
@@ -75,8 +75,22 @@ export default _ =>
           </SectionBody>
         </Section>
 
+        <Buffer />
+
         <Section>
-          <Course />
+          <SectionHeader>The Course</SectionHeader>
+          <p>
+            This course takes a project-based approach in trying out several of
+            the most popular and promising approaches to styling React
+            components. We start with a small UI project that is fully
+            implemented in React and discover how it feels to try out each one
+            of these approaches to layer on some sweet styles.
+          </p>
+          <p>
+            You'll also get some great background on styling in web components.
+            And there's a short, gentle introduction to how to handle the basics
+            of CSS inside of Webpack.
+          </p>
         </Section>
 
         <Section>
