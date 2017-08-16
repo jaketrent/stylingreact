@@ -1,27 +1,31 @@
 export default props =>
-  <div className="sectionHeader">
+  <div className="header">
     <div className="icon">
       {props.icon}
     </div>
-    <h2>
+    <h2 className="title">
       {props.children}
     </h2>
     <style jsx>{`
       .icon {
-        width: 14%;
-        height: auto;
+        width: 80px;
         padding-right: 20px;
       }
       .icon :global(svg) {
         fill: #61dafb;
-        stroke: #61dafb;
       }
-      .sectionHeader {
+      .header {
         display: flex;
         align-items: center;
+        font-size: 1.5em;
       }
-      h2 {
+      .title {
         text-transform: uppercase;
+      }
+      @media screen and (min-width: 769px) {
+        .header {
+          font-size: 1.125em;
+        }
       }
     `}</style>
   </div>
