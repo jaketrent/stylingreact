@@ -11,8 +11,10 @@ export default props =>
         width: 100%;
         height: 100%;
       }
-      .sectionBody {
-        padding-left: 14%;
+      @media screen and (min-width: 769px) {
+        .sectionBody {
+          padding-left: 14%;
+        }
       }
     `}</style>
   </div>
