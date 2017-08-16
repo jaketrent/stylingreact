@@ -5,7 +5,7 @@ export default props =>
       .main {
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: flex-start;
       }
     `}</style>
