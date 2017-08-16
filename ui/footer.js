@@ -31,8 +31,6 @@ const Logo2 = _ =>
           margin: 0;
         }
       }
-      @media screen and (min-width: 1441px) {
-      }
     `}</style>
   </svg>
 
@@ -92,8 +90,6 @@ export default _ =>
         .copy {
           font-size: .5em;
         }
-      }
-      @media screen and (min-width: 1441px) {
       }
     `}</style>
   </div>

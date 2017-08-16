@@ -10,30 +10,12 @@ export default props =>
       .listItem {
         display: flex;
         justify-content: space-between;
-        margin: 1em 0;
+        margin: .8em 0;
       }
-        .name {
-            margin-right: 2.2em;
-        }
-        .time {
-            margin: 0;
-        }
-        @media screen and (min-width: 426px) {
-            .name {
-                margin-right: 4.5em;
-            }
-        }
-        @media screen and (min-width: 769px) {
-            .name {
-                margin-right: 2em;
-            }
-        }
-        }
-        @media screen and (min-width: 1441px) {
-            .name {
-                margin-right: 6em;
-            }
-        }
+      .time {
+        margin: 0;
+      }
+     
     }
     `}</style>
   </div>
