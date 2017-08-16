@@ -1,4 +1,4 @@
 window.__NEXT_REGISTER_PAGE('/', function() {
-  var comp = (module.exports = webpackJsonp([2], [], [361]))
+  var comp = (module.exports = webpackJsonp([2], [], [375]))
   return { page: comp.default }
 })
