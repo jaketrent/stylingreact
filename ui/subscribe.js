@@ -65,7 +65,7 @@ export default _ =>
         display: inline-block;
         height: 2em;
         line-height: 2em;
-        padding: 0 2em;
+        width: 100%;
         background: #61dafb;
         border-radius: 3px;
         margin: 0 auto;
@@ -95,6 +95,9 @@ export default _ =>
         .mail__input {
           flex: 1;
           margin-right: 0.5em;
+        }
+        .mail__button {
+          padding: 0 2em;
         }
       }
     `}</style>
