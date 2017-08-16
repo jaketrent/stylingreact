@@ -2,11 +2,16 @@ export default props =>
   <div className="course">
     <h2 className="heading">The course</h2>
     <p>
-      The ship is almost finished. Two or Three more things and we're in great
-      shape. The sooner the better. Something's wrong here. No one has seen or
-      knows anything about Threepio. He's been gone too long to have gotten
-      lost. Relax. I'll talk to Lando and see what I can find out. I don't trust
-      Lando. Well, I don't trust him, either. But he is my friend.
+      This course takes a project-based approach in trying out several of the
+      most popular and promising approaches to styling React components. We
+      start with a small UI project that is fully implemented in React and
+      discover how it feels to try out each one of these approaches to layer on
+      some sweet styles.
+    </p>
+    <p>
+      You'll also get some great background on styling in web components. And
+      there's a short, gentle introduction to how to handle the basics of CSS
+      inside of Webpack.
     </p>
     <style jsx>{`
       .heading {
