@@ -15458,30 +15458,26 @@ object-assign
       t.default = function(e) {
         return u.default.createElement(
           'div',
-          { className: 'trial', 'data-jsx': 1685486451 },
+          { className: 'trial', 'data-jsx': 3528209157 },
           u.default.createElement(
-            'div',
-            { className: 'button', 'data-jsx': 1685486451 },
-            u.default.createElement(
-              'a',
-              {
-                className: 'signUpLink',
-                href:
-                  'https://www.pluralsight.com/courses/react-styling-components',
-                'data-jsx': 1685486451
-              },
-              'Try Pluralsight'
-            )
+            'a',
+            {
+              className: 'link',
+              href:
+                'https://www.pluralsight.com/courses/react-styling-components',
+              'data-jsx': 3528209157
+            },
+            'Try Pluralsight'
           ),
           u.default.createElement(
             'p',
-            { className: 'caption', 'data-jsx': 1685486451 },
+            { className: 'caption', 'data-jsx': 3528209157 },
             'free for 10 days'
           ),
           u.default.createElement(a.default, {
-            styleId: 1685486451,
+            styleId: 3528209157,
             css:
-              '.signUpLink[data-jsx="1685486451"]{border-bottom:none;border-radius:3px;background-color:#61dafb;padding:1em 1.7em;font-size:1.2em;text-transform:uppercase;text-shadow:-3px -1px 6px black;box-shadow:-5px -5px 4px black}.signUpLink[data-jsx="1685486451"]:hover{background-color:#4ed6fb;color:#f5f5f5;text-shadow:-1.5px -1px 6px black;box-shadow:none}.caption[data-jsx="1685486451"]{margin:0;text-align:center}'
+              '.link[data-jsx="3528209157"]{border-bottom:none;border-radius:3px;background-color:#61dafb;padding:1em 1.75em;font-size:1.25em;text-transform:uppercase;text-shadow:-1px -1px 0 blue;font-family:\'Libre Franklin\',sans-serif}.link[data-jsx="3528209157"]:hover{background-color:#4ed6fb;color:#f5f5f5}.caption[data-jsx="3528209157"]{margin:0.675em;text-align:center;font-size:0.675em}'
           })
         )
       }
