@@ -5649,10 +5649,10 @@ object-assign
                           pathname: A,
                           query: j,
                           asPath: H
-                        }), (e.next = 8), (0, k.loadGetInitialProps)(Y, o)
+                        }), (e.next = 8), (0, k.loadGetInitialProps)(G, o)
                       case 8:
                         ;(i = e.sent), y.default.render(
-                          (0, m.createElement)(Y, i),
+                          (0, m.createElement)(G, i),
                           q
                         ), (e.next = 13)
                         break
@@ -5693,7 +5693,7 @@ object-assign
                   for (;;)
                     switch ((e.prev = e.next)) {
                       case 0:
-                        if (l || !s || s === Y || W.Component !== Y) {
+                        if (l || !s || s === G || W.Component !== G) {
                           e.next = 5
                           break
                         }
@@ -5708,7 +5708,7 @@ object-assign
                         p &&
                           p.emit('before-reactdom-render', {
                             Component: s,
-                            ErrorComponent: Y
+                            ErrorComponent: G
                           }), (s = s || W.Component), (l = l || W.props), (u = {
                           Component: s,
                           props: l,
@@ -5724,7 +5724,7 @@ object-assign
                         ), p &&
                           p.emit('after-reactdom-render', {
                             Component: s,
-                            ErrorComponent: Y
+                            ErrorComponent: G
                           })
                       case 13:
                       case 'end':
@@ -5786,8 +5786,8 @@ object-assign
         q = document.getElementById('__next-error'),
         W = void 0,
         K = (t.router = void 0),
-        Y = (t.ErrorComponent = void 0),
-        G = void 0
+        G = (t.ErrorComponent = void 0),
+        Y = void 0
       t.default = (0, l.default)(
         a.default.mark(function e() {
           var n, r, o, i, s, l, c, f
@@ -5829,20 +5829,20 @@ object-assign
                   case 26:
                     return (e.next = 28), V.loadPage('/_error')
                   case 28:
-                    return (t.ErrorComponent = Y =
+                    return (t.ErrorComponent = G =
                       e.sent), (e.prev = 29), (e.next = 32), V.loadPage(A)
                   case 32:
-                    ;(G = e.sent), (e.next = 39)
+                    ;(Y = e.sent), (e.next = 39)
                     break
                   case 35:
                     ;(e.prev = 35), (e.t1 = e.catch(29)), console.error(
                       e.t1.message + '\n' + e.t1.stack
-                    ), (G = Y)
+                    ), (Y = G)
                   case 39:
                     return (t.router = K = (0, b.createRouter)(A, j, H, {
                       pageLoader: V,
-                      Component: G,
-                      ErrorComponent: Y,
+                      Component: Y,
+                      ErrorComponent: G,
                       err: R
                     })), (c = new E.default()), K.subscribe(function(e) {
                       var t = e.Component,
@@ -5851,7 +5851,7 @@ object-assign
                         o = e.err
                       p({ Component: t, props: n, err: o, hash: r, emitter: c })
                     }), (f = F.hash.substring(1)), p({
-                      Component: G,
+                      Component: Y,
                       props: I,
                       hash: f,
                       err: R,
@@ -8931,7 +8931,7 @@ object-assign
           topVolumeChange: 'volumechange',
           topWaiting: 'waiting'
         },
-        Y = {
+        G = {
           area: !0,
           base: !0,
           br: !0,
@@ -8948,8 +8948,8 @@ object-assign
           track: !0,
           wbr: !0
         },
-        G = { listing: !0, pre: !0, textarea: !0 },
-        X = y({ menuitem: !0 }, Y),
+        Y = { listing: !0, pre: !0, textarea: !0 },
+        X = y({ menuitem: !0 }, G),
         Q = /^[a-zA-Z][a-zA-Z:_\.\-\d]*$/,
         $ = {},
         J = {}.hasOwnProperty,
@@ -9032,7 +9032,7 @@ object-assign
             var E = this._createOpenTagMarkupAndPutListeners(e, a),
               C = this._createContentMarkup(e, a, r)
             d =
-              !C && Y[this._tag]
+              !C && G[this._tag]
                 ? E + '/>'
                 : E + '>' + C + '</' + this._currentElement.type + '>'
           }
@@ -9095,7 +9095,7 @@ object-assign
               r = u.join('')
             }
           }
-          return G[this._tag] && '\n' === r.charAt(0) ? '\n' + r : r
+          return Y[this._tag] && '\n' === r.charAt(0) ? '\n' + r : r
         },
         _createInitialChildren: function(e, t, n, r) {
           var o = t.dangerouslySetInnerHTML
@@ -12665,8 +12665,8 @@ object-assign
             : function(e) {
                 return e instanceof O
               },
-        Y = function(e, t, n) {
-          return e === H && Y(F, t, n), _(e), (t = x(t, !0)), _(n), o(U, t)
+        G = function(e, t, n) {
+          return e === H && G(F, t, n), _(e), (t = x(t, !0)), _(n), o(U, t)
             ? (
                 n.enumerable
                   ? (
@@ -12678,14 +12678,14 @@ object-assign
               )
             : M(e, t, n)
         },
-        G = function(e, t) {
+        Y = function(e, t) {
           _(e)
           for (var n, r = y((t = b(t))), o = 0, a = r.length; a > o; )
-            Y(e, (n = r[o++]), t[n])
+            G(e, (n = r[o++]), t[n])
           return e
         },
         X = function(e, t) {
-          return void 0 === t ? w(e) : G(w(e), t)
+          return void 0 === t ? w(e) : Y(w(e), t)
         },
         Q = function(e) {
           var t = D.call(this, (e = x(e, !0)))
@@ -12734,7 +12734,7 @@ object-assign
             return this._k
           }),
           (k.f = $),
-          (T.f = Y),
+          (T.f = G),
           (n(163).f = C.f = J),
           (n(67).f = Q),
           (n(109).f = Z),
@@ -12769,8 +12769,8 @@ object-assign
         }
       }), i(i.S + i.F * !V, 'Object', {
         create: X,
-        defineProperty: Y,
-        defineProperties: G,
+        defineProperty: G,
+        defineProperties: Y,
         getOwnPropertyDescriptor: $,
         getOwnPropertyNames: J,
         getOwnPropertySymbols: Z
@@ -15651,32 +15651,32 @@ object-assign
           u.default.createElement(l.default, {
             name: 'UIs in React',
             time: '7:37',
-            link: 'http://bit.ly/2we5kZa'
+            link: 'http://bit.ly/jaketrent-stylingreact-module1'
           }),
           u.default.createElement(l.default, {
             name: 'Inline Styles',
             time: '24:38',
-            link: 'http://bit.ly/2uMwHcp'
+            link: 'http://bit.ly/jaketrent-stylingreact-module2'
           }),
           u.default.createElement(l.default, {
             name: 'Radium',
             time: '13:13',
-            link: 'http://bit.ly/2x8klYK'
+            link: 'http://bit.ly/jaketrent-stylingreact-module3'
           }),
           u.default.createElement(l.default, {
             name: 'A Webpack Intro for CSS',
             time: '8:29',
-            link: 'http://bit.ly/2uMvxxF'
+            link: 'http://bit.ly/jaketrent-stylingreact-module4'
           }),
           u.default.createElement(l.default, {
             name: 'CSS Stylesheet',
             time: '13:37',
-            link: 'http://bit.ly/2wTnnAV'
+            link: 'http://bit.ly/jaketrent-stylingreact-module5'
           }),
           u.default.createElement(l.default, {
             name: 'CSS Modules',
             time: '20:26',
-            link: 'http://bit.ly/2i9cl7e'
+            link: 'http://bit.ly/jaketrent-stylingreact-module6'
           }),
           u.default.createElement(
             'div',
