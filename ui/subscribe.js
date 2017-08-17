@@ -86,6 +86,7 @@ export default _ =>
         color: #fff;
         font-family: 'Raleway', sans-serif;
         text-shadow: -1px -1px 0 blue;
+        cursor: pointer;
       }
       .mail__button:hover {
         background-color: #4ed6fb;

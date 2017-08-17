@@ -14,6 +14,10 @@ export default _ =>
         display: inline-block;
         overflow: hidden;
         max-width: 100%;
+        margin: auto;
+      }
+      .trial {
+        text-align: center;
       }
       .link {
         text-overflow: hidden;
@@ -38,5 +42,15 @@ export default _ =>
         text-align: center;
         font-size: 0.675em;
       }
+      @media screen and (min-width: 426px) {
+      }
+      @media screen and (min-width: 769px) {
+        .trial {
+          text-align: left;
+          margin: 25% 0;
+        }
+      }
+      @media screen and (min-width: 1441px) {
+        
     `}</style>
   </div>
