@@ -1,6 +1,6 @@
 export default props =>
   <div className="listItem">
-    <a className="name">
+    <a className="name" href={props.link}>
       {props.name}
     </a>
     <p className="time">
