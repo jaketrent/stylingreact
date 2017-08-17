@@ -5649,10 +5649,10 @@ object-assign
                           pathname: A,
                           query: j,
                           asPath: H
-                        }), (e.next = 8), (0, k.loadGetInitialProps)(G, o)
+                        }), (e.next = 8), (0, k.loadGetInitialProps)(Y, o)
                       case 8:
                         ;(i = e.sent), y.default.render(
-                          (0, m.createElement)(G, i),
+                          (0, m.createElement)(Y, i),
                           q
                         ), (e.next = 13)
                         break
@@ -5693,7 +5693,7 @@ object-assign
                   for (;;)
                     switch ((e.prev = e.next)) {
                       case 0:
-                        if (l || !s || s === G || W.Component !== G) {
+                        if (l || !s || s === Y || W.Component !== Y) {
                           e.next = 5
                           break
                         }
@@ -5708,7 +5708,7 @@ object-assign
                         p &&
                           p.emit('before-reactdom-render', {
                             Component: s,
-                            ErrorComponent: G
+                            ErrorComponent: Y
                           }), (s = s || W.Component), (l = l || W.props), (u = {
                           Component: s,
                           props: l,
@@ -5724,7 +5724,7 @@ object-assign
                         ), p &&
                           p.emit('after-reactdom-render', {
                             Component: s,
-                            ErrorComponent: G
+                            ErrorComponent: Y
                           })
                       case 13:
                       case 'end':
@@ -5786,8 +5786,8 @@ object-assign
         q = document.getElementById('__next-error'),
         W = void 0,
         K = (t.router = void 0),
-        G = (t.ErrorComponent = void 0),
-        Y = void 0
+        Y = (t.ErrorComponent = void 0),
+        G = void 0
       t.default = (0, l.default)(
         a.default.mark(function e() {
           var n, r, o, i, s, l, c, f
@@ -5829,20 +5829,20 @@ object-assign
                   case 26:
                     return (e.next = 28), V.loadPage('/_error')
                   case 28:
-                    return (t.ErrorComponent = G =
+                    return (t.ErrorComponent = Y =
                       e.sent), (e.prev = 29), (e.next = 32), V.loadPage(A)
                   case 32:
-                    ;(Y = e.sent), (e.next = 39)
+                    ;(G = e.sent), (e.next = 39)
                     break
                   case 35:
                     ;(e.prev = 35), (e.t1 = e.catch(29)), console.error(
                       e.t1.message + '\n' + e.t1.stack
-                    ), (Y = G)
+                    ), (G = Y)
                   case 39:
                     return (t.router = K = (0, b.createRouter)(A, j, H, {
                       pageLoader: V,
-                      Component: Y,
-                      ErrorComponent: G,
+                      Component: G,
+                      ErrorComponent: Y,
                       err: R
                     })), (c = new E.default()), K.subscribe(function(e) {
                       var t = e.Component,
@@ -5851,7 +5851,7 @@ object-assign
                         o = e.err
                       p({ Component: t, props: n, err: o, hash: r, emitter: c })
                     }), (f = F.hash.substring(1)), p({
-                      Component: Y,
+                      Component: G,
                       props: I,
                       hash: f,
                       err: R,
@@ -8931,7 +8931,7 @@ object-assign
           topVolumeChange: 'volumechange',
           topWaiting: 'waiting'
         },
-        G = {
+        Y = {
           area: !0,
           base: !0,
           br: !0,
@@ -8948,8 +8948,8 @@ object-assign
           track: !0,
           wbr: !0
         },
-        Y = { listing: !0, pre: !0, textarea: !0 },
-        X = y({ menuitem: !0 }, G),
+        G = { listing: !0, pre: !0, textarea: !0 },
+        X = y({ menuitem: !0 }, Y),
         Q = /^[a-zA-Z][a-zA-Z:_\.\-\d]*$/,
         $ = {},
         J = {}.hasOwnProperty,
@@ -9032,7 +9032,7 @@ object-assign
             var E = this._createOpenTagMarkupAndPutListeners(e, a),
               C = this._createContentMarkup(e, a, r)
             d =
-              !C && G[this._tag]
+              !C && Y[this._tag]
                 ? E + '/>'
                 : E + '>' + C + '</' + this._currentElement.type + '>'
           }
@@ -9095,7 +9095,7 @@ object-assign
               r = u.join('')
             }
           }
-          return Y[this._tag] && '\n' === r.charAt(0) ? '\n' + r : r
+          return G[this._tag] && '\n' === r.charAt(0) ? '\n' + r : r
         },
         _createInitialChildren: function(e, t, n, r) {
           var o = t.dangerouslySetInnerHTML
@@ -12665,8 +12665,8 @@ object-assign
             : function(e) {
                 return e instanceof O
               },
-        G = function(e, t, n) {
-          return e === H && G(F, t, n), _(e), (t = x(t, !0)), _(n), o(U, t)
+        Y = function(e, t, n) {
+          return e === H && Y(F, t, n), _(e), (t = x(t, !0)), _(n), o(U, t)
             ? (
                 n.enumerable
                   ? (
@@ -12678,14 +12678,14 @@ object-assign
               )
             : M(e, t, n)
         },
-        Y = function(e, t) {
+        G = function(e, t) {
           _(e)
           for (var n, r = y((t = b(t))), o = 0, a = r.length; a > o; )
-            G(e, (n = r[o++]), t[n])
+            Y(e, (n = r[o++]), t[n])
           return e
         },
         X = function(e, t) {
-          return void 0 === t ? w(e) : Y(w(e), t)
+          return void 0 === t ? w(e) : G(w(e), t)
         },
         Q = function(e) {
           var t = D.call(this, (e = x(e, !0)))
@@ -12734,7 +12734,7 @@ object-assign
             return this._k
           }),
           (k.f = $),
-          (T.f = G),
+          (T.f = Y),
           (n(163).f = C.f = J),
           (n(67).f = Q),
           (n(109).f = Z),
@@ -12769,8 +12769,8 @@ object-assign
         }
       }), i(i.S + i.F * !V, 'Object', {
         create: X,
-        defineProperty: G,
-        defineProperties: Y,
+        defineProperty: Y,
+        defineProperties: G,
         getOwnPropertyDescriptor: $,
         getOwnPropertyNames: J,
         getOwnPropertySymbols: Z
@@ -15650,24 +15650,33 @@ object-assign
           { className: 'table', 'data-jsx': 2045991259 },
           u.default.createElement(l.default, {
             name: 'UIs in React',
-            time: '7:37'
+            time: '7:37',
+            link: 'http://bit.ly/2we5kZa'
           }),
           u.default.createElement(l.default, {
             name: 'Inline Styles',
-            time: '24:38'
+            time: '24:38',
+            link: 'http://bit.ly/2uMwHcp'
           }),
-          u.default.createElement(l.default, { name: 'Radium', time: '13:13' }),
+          u.default.createElement(l.default, {
+            name: 'Radium',
+            time: '13:13',
+            link: 'http://bit.ly/2x8klYK'
+          }),
           u.default.createElement(l.default, {
             name: 'A Webpack Intro for CSS',
-            time: '8:29'
+            time: '8:29',
+            link: 'http://bit.ly/2uMvxxF'
           }),
           u.default.createElement(l.default, {
             name: 'CSS Stylesheet',
-            time: '13:37'
+            time: '13:37',
+            link: 'http://bit.ly/2wTnnAV'
           }),
           u.default.createElement(l.default, {
             name: 'CSS Modules',
-            time: '20:26'
+            time: '20:26',
+            link: 'http://bit.ly/2i9cl7e'
           }),
           u.default.createElement(
             'div',
@@ -15707,7 +15716,7 @@ object-assign
           { className: 'listItem', 'data-jsx': 4057666410 },
           u.default.createElement(
             'a',
-            { className: 'name', 'data-jsx': 4057666410 },
+            { className: 'name', href: e.link, 'data-jsx': 4057666410 },
             e.name
           ),
           u.default.createElement(
@@ -15744,8 +15753,7 @@ object-assign
               'a',
               {
                 className: 'link',
-                href:
-                  'https://www.pluralsight.com/courses/react-styling-components',
+                href: 'http://bit.ly/pluralsight-create-the-future',
                 'data-jsx': 2497488810
               },
               'Try Pluralsight'
