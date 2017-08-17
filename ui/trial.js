@@ -1,10 +1,7 @@
 export default _ =>
   <div className="trial">
     <div className="container">
-      <a
-        className="link"
-        href="https://www.pluralsight.com/courses/react-styling-components"
-      >
+      <a className="link" href="http://bit.ly/pluralsight-create-the-future">
         Try Pluralsight
       </a>
       <p className="caption">free for 10 days</p>
