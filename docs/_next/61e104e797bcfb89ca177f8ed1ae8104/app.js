@@ -274,6 +274,9 @@ object-assign
       'number' == typeof __e && (__e = n)
     },
     function(e, t, n) {
+      e.exports = n(174)
+    },
+    function(e, t, n) {
       var r = n(10),
         o = n(6),
         a = n(19),
@@ -330,9 +333,6 @@ object-assign
               )
         }
       ;(u.F = 1), (u.G = 2), (u.S = 4), (u.P = 8), (u.B = 16), (u.W = 32), (u.U = 64), (u.R = 128), (e.exports = u)
-    },
-    function(e, t, n) {
-      e.exports = n(174)
     },
     function(e, t, n) {
       var r = n(80)('wks'),
@@ -755,7 +755,7 @@ object-assign
     },
     function(e, t, n) {
       'use strict'
-      var r = n(187)(!0)
+      var r = n(188)(!0)
       n(75)(
         String,
         'String',
@@ -831,7 +831,7 @@ object-assign
       e.exports = f
     },
     function(e, t, n) {
-      n(181)
+      n(182)
       for (
         var r = n(10),
           o = n(24),
@@ -857,13 +857,13 @@ object-assign
       'use strict'
       var r = n(4),
         o = n(129),
-        a = n(196),
-        i = n(201),
+        a = n(197),
+        i = n(202),
         u = n(33),
-        s = n(202),
-        l = n(205),
-        c = n(206),
-        f = n(208),
+        s = n(203),
+        l = n(206),
+        c = n(207),
+        f = n(209),
         p = u.createElement,
         d = u.createFactory,
         h = u.cloneElement,
@@ -1051,7 +1051,7 @@ object-assign
       function r() {
         o.attachRefs(this, this._currentElement)
       }
-      var o = n(218),
+      var o = n(219),
         a = (
           n(14),
           n(2),
@@ -1134,7 +1134,7 @@ object-assign
       ;(l.insertTreeBefore = m), (l.replaceChildWithTree = o), (l.queueChild = a), (l.queueHTML = i), (l.queueText = u), (e.exports = l)
     },
     function(e, t, n) {
-      e.exports = { default: n(323), __esModule: !0 }
+      e.exports = { default: n(324), __esModule: !0 }
     },
     function(e, t, n) {
       'use strict'
@@ -1161,9 +1161,9 @@ object-assign
         return e && e.__esModule ? e : { default: e }
       }
       t.__esModule = !0
-      var o = n(326),
+      var o = n(327),
         a = r(o),
-        i = n(330),
+        i = n(331),
         u = r(i),
         s = n(105),
         l = r(s)
@@ -1184,7 +1184,7 @@ object-assign
       }
     },
     function(e, t, n) {
-      e.exports = { default: n(180), __esModule: !0 }
+      e.exports = { default: n(181), __esModule: !0 }
     },
     function(e, t) {
       var n = {}.toString
@@ -1234,7 +1234,7 @@ object-assign
       }
     },
     function(e, t, n) {
-      e.exports = { default: n(189), __esModule: !0 }
+      e.exports = { default: n(190), __esModule: !0 }
     },
     function(e, t, n) {
       var r = n(19),
@@ -1514,7 +1514,7 @@ object-assign
     },
     function(e, t, n) {
       var r = n(20),
-        o = n(184),
+        o = n(185),
         a = n(81),
         i = n(79)('IE_PROTO'),
         u = function() {},
@@ -1794,9 +1794,9 @@ object-assign
       var o,
         a = n(4),
         i = n(87),
-        u = n(239),
+        u = n(240),
         s = n(143),
-        l = n(240),
+        l = n(241),
         c = n(91),
         f = {},
         p = !1,
@@ -1984,7 +1984,7 @@ object-assign
         return e && e.__esModule ? e : { default: e }
       }
       t.__esModule = !0
-      var o = n(289),
+      var o = n(290),
         a = r(o),
         i = n(40),
         u = r(i)
@@ -2025,7 +2025,7 @@ object-assign
       t.f = {}.propertyIsEnumerable
     },
     function(e, t, n) {
-      e.exports = { default: n(306), __esModule: !0 }
+      e.exports = { default: n(307), __esModule: !0 }
     },
     function(e, t, n) {
       'use strict'
@@ -2125,10 +2125,10 @@ object-assign
       }.call(t, n(98)))
     },
     function(e, t, n) {
-      e.exports = n(333)()
+      e.exports = n(334)()
     },
     function(e, t, n) {
-      e.exports = n(178)
+      e.exports = n(179)
     },
     function(e, t) {
       var n
@@ -2159,12 +2159,12 @@ object-assign
     function(e, t, n) {
       'use strict'
       var r = n(54),
-        o = n(7),
+        o = n(8),
         a = n(117),
         i = n(24),
         u = n(27),
         s = n(31),
-        l = n(183),
+        l = n(184),
         c = n(45),
         f = n(120),
         p = n(9)('iterator'),
@@ -2664,7 +2664,7 @@ object-assign
           : n ? (h(o, n), s(r, o, t)) : s(r, e, t)
       }
       var c = n(36),
-        f = n(224),
+        f = n(225),
         p = (n(5), n(14), n(95)),
         d = n(63),
         h = n(144),
@@ -2740,7 +2740,7 @@ object-assign
         return ''
       }
       var u = n(3),
-        s = n(242),
+        s = n(243),
         l = n(133),
         c = n(32),
         f = l(c.isValidElement),
@@ -3085,9 +3085,9 @@ object-assign
         return e && e.__esModule ? e : { default: e }
       }
       t.__esModule = !0
-      var o = n(293),
+      var o = n(294),
         a = r(o),
-        i = n(295),
+        i = n(296),
         u = r(i),
         s =
           'function' == typeof u.default && 'symbol' == typeof a.default
@@ -3200,7 +3200,7 @@ object-assign
         }
     },
     function(e, t, n) {
-      e.exports = { default: n(303), __esModule: !0 }
+      e.exports = { default: n(304), __esModule: !0 }
     },
     function(e, t, n) {
       var r = n(21)
@@ -3359,7 +3359,7 @@ object-assign
         C = r(w),
         k = n(70),
         T = r(k),
-        P = n(339),
+        P = n(340),
         S = r(P),
         M = (function(e) {
           function t() {
@@ -3406,7 +3406,7 @@ object-assign
     function(e, t, n) {
       var r = n(27),
         o = n(25),
-        a = n(185)(!1),
+        a = n(186)(!1),
         i = n(79)('IE_PROTO')
       e.exports = function(e, t) {
         var n,
@@ -3471,7 +3471,7 @@ object-assign
         o,
         a,
         i = n(19),
-        u = n(191),
+        u = n(192),
         s = n(119),
         l = n(76),
         c = n(10),
@@ -3619,7 +3619,7 @@ object-assign
         u = n(4),
         s = n(130),
         l = (n(131), n(60))
-      n(0), n(195)
+      n(0), n(196)
       ;(r.prototype.isReactComponent = {}), (r.prototype.setState = function(
         e,
         t
@@ -3674,7 +3674,7 @@ object-assign
     },
     function(e, t, n) {
       'use strict'
-      var r = n(203)
+      var r = n(204)
       e.exports = function(e) {
         return r(e, !1)
       }
@@ -4035,7 +4035,7 @@ object-assign
         )
       }
       var a = n(34),
-        i = (n(5), n(14), n(238)),
+        i = (n(5), n(14), n(239)),
         u = (
           n(2),
           new RegExp(
@@ -4241,11 +4241,11 @@ object-assign
       }
       var i = n(3),
         u = n(4),
-        s = n(247),
+        s = n(248),
         l = n(151),
         c = n(152),
         f = (
-          n(248),
+          n(249),
           n(0),
           n(2),
           function(e) {
@@ -4382,8 +4382,8 @@ object-assign
         return null == e ? 0 : o(e, '', t, n)
       }
       var i = n(3),
-        u = (n(22), n(249)),
-        s = n(250),
+        u = (n(22), n(250)),
+        s = n(251),
         l = (n(0), n(101)),
         c = (n(2), '.'),
         f = ':'
@@ -4713,8 +4713,8 @@ object-assign
       function r(e) {
         return a(document.documentElement, e)
       }
-      var o = n(262),
-        a = n(264),
+      var o = n(263),
+        a = n(265),
         i = n(145),
         u = n(157),
         s = {
@@ -4879,11 +4879,11 @@ object-assign
         v = n(32),
         y = n(65),
         g = (n(22), n(5)),
-        _ = n(279),
-        b = n(280),
+        _ = n(280),
+        b = n(281),
         x = n(140),
         E = n(53),
-        w = (n(14), n(281)),
+        w = (n(14), n(282)),
         C = n(35),
         k = n(102),
         T = n(18),
@@ -5025,7 +5025,7 @@ object-assign
       e.exports = r
     },
     function(e, t, n) {
-      e.exports = { default: n(287), __esModule: !0 }
+      e.exports = { default: n(288), __esModule: !0 }
     },
     function(e, t, n) {
       'use strict'
@@ -5070,7 +5070,7 @@ object-assign
         l = n(160),
         c = r(l)
       ;(t._notifyBuildIdMismatch = a), (t._rewriteUrlForNextExport = i)
-      var f = n(292),
+      var f = n(293),
         p = r(f),
         d = {
           router: null,
@@ -5276,7 +5276,7 @@ object-assign
     function(e, t, n) {
       'use strict'
       var r = n(10),
-        o = n(7),
+        o = n(8),
         a = n(107),
         i = n(26),
         u = n(24),
@@ -5286,7 +5286,7 @@ object-assign
         f = n(21),
         p = n(45),
         d = n(13).f,
-        h = n(308)(0),
+        h = n(309)(0),
         m = n(17)
       e.exports = function(e, t, n, v, y, g) {
         var _ = r[e],
@@ -5343,7 +5343,7 @@ object-assign
     },
     function(e, t, n) {
       var r = n(58),
-        o = n(312)
+        o = n(313)
       e.exports = function(e) {
         return function() {
           if (r(this) != e) throw TypeError(e + "#toJSON isn't generic")
@@ -5353,7 +5353,7 @@ object-assign
     },
     function(e, t, n) {
       'use strict'
-      var r = n(7)
+      var r = n(8)
       e.exports = function(e) {
         r(r.S, e, {
           of: function() {
@@ -5366,7 +5366,7 @@ object-assign
     },
     function(e, t, n) {
       'use strict'
-      var r = n(7),
+      var r = n(8),
         o = n(42),
         a = n(19),
         i = n(48)
@@ -5445,7 +5445,7 @@ object-assign
       }
     },
     function(e, t, n) {
-      e.exports = { default: n(336), __esModule: !0 }
+      e.exports = { default: n(337), __esModule: !0 }
     },
     function(e, t, n) {
       'use strict'
@@ -5510,7 +5510,7 @@ object-assign
         E = r(x)
       t.flush = a
       var w = n(1),
-        C = n(348),
+        C = n(349),
         k = r(C),
         T = [],
         P = (function(e) {
@@ -5550,11 +5550,39 @@ object-assign
       t.default = P
     },
     function(e, t, n) {
-      e.exports = { default: n(343), __esModule: !0 }
+      e.exports = { default: n(344), __esModule: !0 }
     },
     function(e, t, n) {
       'use strict'
-      var r = n(177)
+      function r(e) {
+        return e && e.__esModule ? e : { default: e }
+      }
+      Object.defineProperty(t, '__esModule', {
+        value: !0
+      }), (t.padding = void 0)
+      var o = n(7),
+        a = r(o),
+        i = n(1),
+        u = r(i),
+        s = (t.padding = '20px')
+      t.default = function(e) {
+        return u.default.createElement(
+          'div',
+          { className: 'content', 'data-jsx': 1730530146 },
+          e.children,
+          u.default.createElement(a.default, {
+            styleId: 1730530146,
+            css:
+              '.content[data-jsx="1730530146"]{max-width:1200px;margin:auto;padding:' +
+              s +
+              '}'
+          })
+        )
+      }
+    },
+    function(e, t, n) {
+      'use strict'
+      var r = n(178)
       ;(
         0,
         (function(e) {
@@ -5741,19 +5769,19 @@ object-assign
           }
         })(),
         m = n(1),
-        v = n(209),
+        v = n(210),
         y = r(v),
-        g = n(286),
+        g = n(287),
         _ = r(g),
         b = n(161),
         x = n(113),
         E = r(x),
-        w = n(322),
+        w = n(323),
         C = r(w),
         k = n(69),
-        T = n(334),
+        T = n(335),
         P = r(T),
-        S = n(340),
+        S = n(341),
         M = r(S)
       window.Promise || (window.Promise = f.default)
       var N = window,
@@ -5881,7 +5909,7 @@ object-assign
             r.regeneratorRuntime &&
             Object.getOwnPropertyNames(r).indexOf('regeneratorRuntime') >= 0,
           a = o && r.regeneratorRuntime
-        if (((r.regeneratorRuntime = void 0), (e.exports = n(179)), o))
+        if (((r.regeneratorRuntime = void 0), (e.exports = n(180)), o))
           r.regeneratorRuntime = a
         else
           try {
@@ -6260,11 +6288,11 @@ object-assign
       }.call(t, n(72)))
     },
     function(e, t, n) {
-      n(30), n(28), (e.exports = n(188))
+      n(30), n(28), (e.exports = n(189))
     },
     function(e, t, n) {
       'use strict'
-      var r = n(182),
+      var r = n(183),
         o = n(115),
         a = n(31),
         i = n(25)
@@ -6318,7 +6346,7 @@ object-assign
     function(e, t, n) {
       var r = n(25),
         o = n(56),
-        a = n(186)
+        a = n(187)
       e.exports = function(e) {
         return function(t, n, i) {
           var u,
@@ -6379,7 +6407,7 @@ object-assign
       }
     },
     function(e, t, n) {
-      n(59), n(28), n(30), n(190), n(193), n(194), (e.exports = n(6).Promise)
+      n(59), n(28), n(30), n(191), n(194), n(195), (e.exports = n(6).Promise)
     },
     function(e, t, n) {
       'use strict'
@@ -6391,14 +6419,14 @@ object-assign
         s = n(10),
         l = n(19),
         c = n(58),
-        f = n(7),
+        f = n(8),
         p = n(21),
         d = n(42),
         h = n(84),
         m = n(48),
         v = n(123),
         y = n(124).set,
-        g = n(192)(),
+        g = n(193)(),
         _ = n(85),
         b = n(125),
         x = n(126),
@@ -6703,7 +6731,7 @@ object-assign
     },
     function(e, t, n) {
       'use strict'
-      var r = n(7),
+      var r = n(8),
         o = n(6),
         a = n(10),
         i = n(123),
@@ -6733,7 +6761,7 @@ object-assign
     },
     function(e, t, n) {
       'use strict'
-      var r = n(7),
+      var r = n(8),
         o = n(85),
         a = n(125)
       r(r.S, 'Promise', {
@@ -6811,10 +6839,10 @@ object-assign
         var t = []
         return l(e, t, null, v.thatReturnsArgument), t
       }
-      var h = n(197),
+      var h = n(198),
         m = n(33),
         v = n(12),
-        y = n(198),
+        y = n(199),
         g = h.twoArgumentPooler,
         _ = h.fourArgumentPooler,
         b = /\/+/g
@@ -6953,8 +6981,8 @@ object-assign
       }
       var i = n(49),
         u = (n(22), n(132)),
-        s = n(199),
-        l = (n(0), n(200)),
+        s = n(200),
+        l = (n(0), n(201)),
         c = (n(2), '.'),
         f = ':'
       e.exports = a
@@ -7146,7 +7174,7 @@ object-assign
         o = n(0),
         a = n(2),
         i = n(134),
-        u = n(204)
+        u = n(205)
       e.exports = function(e, t) {
         function n(e) {
           var t = e && ((C && e[C]) || e[k])
@@ -7512,7 +7540,7 @@ object-assign
         a = n(33),
         i = a.isValidElement,
         u = n(130),
-        s = n(207)
+        s = n(208)
       e.exports = s(o, i, u)
     },
     function(e, t, n) {
@@ -7743,19 +7771,19 @@ object-assign
     },
     function(e, t, n) {
       'use strict'
-      e.exports = n(210)
+      e.exports = n(211)
     },
     function(e, t, n) {
       'use strict'
       var r = n(5),
-        o = n(211),
+        o = n(212),
         a = n(158),
         i = n(35),
         u = n(18),
-        s = n(283),
-        l = n(284),
+        s = n(284),
+        l = n(285),
         c = n(159),
-        f = n(285)
+        f = n(286)
       n(2)
       o.inject()
       var p = {
@@ -7812,25 +7840,25 @@ object-assign
             g.Component.injectEnvironment(c)
           )
       }
-      var o = n(212),
-        a = n(213),
-        i = n(217),
-        u = n(220),
-        s = n(221),
-        l = n(222),
-        c = n(223),
-        f = n(229),
+      var o = n(213),
+        a = n(214),
+        i = n(218),
+        u = n(221),
+        s = n(222),
+        l = n(223),
+        c = n(224),
+        f = n(230),
         p = n(5),
-        d = n(254),
-        h = n(255),
-        m = n(256),
-        v = n(257),
-        y = n(258),
-        g = n(260),
-        _ = n(261),
-        b = n(267),
-        x = n(268),
-        E = n(269),
+        d = n(255),
+        h = n(256),
+        m = n(257),
+        v = n(258),
+        y = n(259),
+        g = n(261),
+        _ = n(262),
+        b = n(268),
+        x = n(269),
+        E = n(270),
         w = !1
       e.exports = { inject: r }
     },
@@ -7993,9 +8021,9 @@ object-assign
       }
       var p = n(50),
         d = n(11),
-        h = n(214),
-        m = n(215),
-        v = n(216),
+        h = n(215),
+        m = n(216),
+        v = n(217),
         y = [9, 13, 27, 32],
         g = 229,
         _ = d.canUseDOM && 'CompositionEvent' in window,
@@ -8283,7 +8311,7 @@ object-assign
       function o(e, t, n) {
         'function' == typeof e ? e(null) : a.removeComponentAsRefFrom(t, e, n)
       }
-      var a = n(219),
+      var a = n(220),
         i = {}
       ;(i.attachRefs = function(e, t) {
         if (null !== t && 'object' == typeof t) {
@@ -8578,7 +8606,7 @@ object-assign
     function(e, t, n) {
       'use strict'
       var r = n(93),
-        o = n(228),
+        o = n(229),
         a = {
           processChildrenUpdates: o.dangerouslyProcessChildrenUpdates,
           replaceNodeWithMarkup: r.dangerouslyReplaceNodeWithMarkup
@@ -8590,7 +8618,7 @@ object-assign
       var r = n(3),
         o = n(36),
         a = n(11),
-        i = n(225),
+        i = n(226),
         u = n(12),
         s = (
           n(0),
@@ -8634,8 +8662,8 @@ object-assign
         return p
       }
       var a = n(11),
-        i = n(226),
-        u = n(227),
+        i = n(227),
+        u = n(228),
         s = n(0),
         l = a.canUseDOM ? document.createElement('div') : null,
         c = /^\s*<(\w+)/
@@ -8874,8 +8902,8 @@ object-assign
       }
       var v = n(3),
         y = n(4),
-        g = n(230),
-        _ = n(231),
+        g = n(231),
+        _ = n(232),
         b = n(36),
         x = n(94),
         E = n(34),
@@ -8885,12 +8913,12 @@ object-assign
         T = n(65),
         P = n(135),
         S = n(5),
-        M = n(241),
-        N = n(243),
+        M = n(242),
+        N = n(244),
         O = n(148),
-        I = n(244),
-        R = (n(14), n(245)),
-        A = n(252),
+        I = n(245),
+        R = (n(14), n(246)),
+        A = n(253),
         j = (n(12), n(64)),
         D = (n(0), n(91), n(99), n(141)),
         L = (n(103), n(2), P),
@@ -9269,9 +9297,9 @@ object-assign
       'use strict'
       var r = n(146),
         o = n(11),
-        a = (n(14), n(232), n(234)),
-        i = n(235),
-        u = n(237),
+        a = (n(14), n(233), n(235)),
+        i = n(236),
+        u = n(238),
         s = (
           n(2),
           u(function(e) {
@@ -9324,7 +9352,7 @@ object-assign
       function r(e) {
         return o(e.replace(a, 'ms-'))
       }
-      var o = n(233),
+      var o = n(234),
         a = /^-ms-/
       e.exports = r
     },
@@ -9358,7 +9386,7 @@ object-assign
       function r(e) {
         return o(e).replace(a, '-ms-')
       }
-      var o = n(236),
+      var o = n(237),
         a = /^ms-/
       e.exports = r
     },
@@ -9753,8 +9781,8 @@ object-assign
       var c = n(3),
         f = n(97),
         p = (n(53), n(14), n(22), n(35)),
-        d = n(246),
-        h = (n(12), n(251)),
+        d = n(247),
+        h = (n(12), n(252)),
         m = (
           n(0),
           {
@@ -10331,7 +10359,7 @@ object-assign
       var o = n(4),
         a = n(29),
         i = n(61),
-        u = (n(14), n(253)),
+        u = (n(14), n(254)),
         s = [],
         l = { enqueue: function() {} },
         c = {
@@ -10605,7 +10633,7 @@ object-assign
         f = n(5),
         p = n(18),
         d = n(90),
-        h = n(259)
+        h = n(260)
       u(o.prototype, {
         destructor: function() {
           ;(this.topLevelType = null), (this.nativeEvent = null), (this.ancestors.length = 0)
@@ -10815,7 +10843,7 @@ object-assign
         }
       }
       var s = n(11),
-        l = n(263),
+        l = n(264),
         c = n(138),
         f =
           s.canUseDOM && 'selection' in document && !('getSelection' in window),
@@ -10861,7 +10889,7 @@ object-assign
                     !!(16 & e.compareDocumentPosition(t)))))
         )
       }
-      var o = n(265)
+      var o = n(266)
       e.exports = r
     },
     function(e, t, n) {
@@ -10869,7 +10897,7 @@ object-assign
       function r(e) {
         return o(e) && 3 == e.nodeType
       }
-      var o = n(266)
+      var o = n(267)
       e.exports = r
     },
     function(e, t, n) {
@@ -11272,17 +11300,17 @@ object-assign
         i = n(155),
         u = n(50),
         s = n(5),
-        l = n(270),
-        c = n(271),
+        l = n(271),
+        c = n(272),
         f = n(23),
-        p = n(272),
-        d = n(273),
+        p = n(273),
+        d = n(274),
         h = n(62),
-        m = n(275),
-        v = n(276),
-        y = n(277),
+        m = n(276),
+        v = n(277),
+        y = n(278),
         g = n(52),
-        _ = n(278),
+        _ = n(279),
         b = n(12),
         x = n(104),
         E = (n(0), {}),
@@ -11512,7 +11540,7 @@ object-assign
       }
       var o = n(52),
         a = n(104),
-        i = n(274),
+        i = n(275),
         u = n(92),
         s = {
           key: i,
@@ -11692,7 +11720,7 @@ object-assign
     },
     function(e, t, n) {
       'use strict'
-      var r = n(282),
+      var r = n(283),
         o = /\/?>/,
         a = /^<\!\-\-/,
         i = {
@@ -11862,21 +11890,21 @@ object-assign
       t.default = p
     },
     function(e, t, n) {
-      n(288)
+      n(289)
       var r = n(6).Object
       e.exports = function(e, t, n) {
         return r.defineProperty(e, t, n)
       }
     },
     function(e, t, n) {
-      var r = n(7)
+      var r = n(8)
       r(r.S + r.F * !n(17), 'Object', { defineProperty: n(13).f })
     },
     function(e, t, n) {
-      e.exports = { default: n(290), __esModule: !0 }
+      e.exports = { default: n(291), __esModule: !0 }
     },
     function(e, t, n) {
-      n(30), n(28), (e.exports = n(291))
+      n(30), n(28), (e.exports = n(292))
     },
     function(e, t, n) {
       var r = n(58),
@@ -11912,12 +11940,12 @@ object-assign
         g = r(y),
         _ = n(16),
         b = r(_),
-        x = n(315),
+        x = n(316),
         E = n(113),
         w = r(E),
         C = n(171),
         k = r(C),
-        T = n(321),
+        T = n(322),
         P = r(T),
         S = n(69),
         M = n(161),
@@ -12580,23 +12608,23 @@ object-assign
       t.default = N
     },
     function(e, t, n) {
-      e.exports = { default: n(294), __esModule: !0 }
+      e.exports = { default: n(295), __esModule: !0 }
     },
     function(e, t, n) {
       n(28), n(30), (e.exports = n(106).f('iterator'))
     },
     function(e, t, n) {
-      e.exports = { default: n(296), __esModule: !0 }
+      e.exports = { default: n(297), __esModule: !0 }
     },
     function(e, t, n) {
-      n(297), n(59), n(301), n(302), (e.exports = n(6).Symbol)
+      n(298), n(59), n(302), n(303), (e.exports = n(6).Symbol)
     },
     function(e, t, n) {
       'use strict'
       var r = n(10),
         o = n(27),
         a = n(17),
-        i = n(7),
+        i = n(8),
         u = n(117),
         s = n(107).KEY,
         l = n(26),
@@ -12606,15 +12634,15 @@ object-assign
         d = n(9),
         h = n(106),
         m = n(108),
-        v = n(298),
-        y = n(299),
+        v = n(299),
+        y = n(300),
         g = n(162),
         _ = n(20),
         b = n(25),
         x = n(77),
         E = n(43),
         w = n(55),
-        C = n(300),
+        C = n(301),
         k = n(164),
         T = n(13),
         P = n(44),
@@ -12853,11 +12881,11 @@ object-assign
       n(108)('observable')
     },
     function(e, t, n) {
-      n(304), (e.exports = n(6).Object.assign)
+      n(305), (e.exports = n(6).Object.assign)
     },
     function(e, t, n) {
-      var r = n(7)
-      r(r.S + r.F, 'Object', { assign: n(305) })
+      var r = n(8)
+      r(r.S + r.F, 'Object', { assign: n(306) })
     },
     function(e, t, n) {
       'use strict'
@@ -12899,7 +12927,7 @@ object-assign
           : s
     },
     function(e, t, n) {
-      n(59), n(28), n(30), n(307), n(311), n(313), n(314), (e.exports = n(
+      n(59), n(28), n(30), n(308), n(312), n(314), n(315), (e.exports = n(
         6
       ).Set)
     },
@@ -12927,7 +12955,7 @@ object-assign
         o = n(73),
         a = n(46),
         i = n(56),
-        u = n(309)
+        u = n(310)
       e.exports = function(e, t) {
         var n = 1 == e,
           s = 2 == e,
@@ -12968,7 +12996,7 @@ object-assign
       }
     },
     function(e, t, n) {
-      var r = n(310)
+      var r = n(311)
       e.exports = function(e, t) {
         return new (r(e))(t)
       }
@@ -12990,7 +13018,7 @@ object-assign
       }
     },
     function(e, t, n) {
-      var r = n(7)
+      var r = n(8)
       r(r.P + r.R, 'Set', { toJSON: n(167)('Set') })
     },
     function(e, t, n) {
@@ -13027,8 +13055,8 @@ object-assign
       function u(e, t) {
         return e ? o(e, !1, !0).resolveObject(t) : t
       }
-      var s = n(316),
-        l = n(317)
+      var s = n(317),
+        l = n(318)
       ;(t.parse = o), (t.resolve = i), (t.resolveObject = u), (t.format = a), (t.Url = r)
       var c = /^([a-z0-9.+-]+:)/i,
         f = /:[0-9]*$/,
@@ -13054,7 +13082,7 @@ object-assign
           'gopher:': !0,
           'file:': !0
         },
-        w = n(318)
+        w = n(319)
       ;(r.prototype.parse = function(e, t, n) {
         if (!l.isString(e))
           throw new TypeError(
@@ -13583,7 +13611,7 @@ object-assign
     },
     function(e, t, n) {
       'use strict'
-      ;(t.decode = t.parse = n(319)), (t.encode = t.stringify = n(320))
+      ;(t.decode = t.parse = n(320)), (t.encode = t.stringify = n(321))
     },
     function(e, t, n) {
       'use strict'
@@ -13939,19 +13967,19 @@ object-assign
       })(y.Component)
     },
     function(e, t, n) {
-      n(324), (e.exports = n(6).Object.getPrototypeOf)
+      n(325), (e.exports = n(6).Object.getPrototypeOf)
     },
     function(e, t, n) {
       var r = n(46),
         o = n(120)
-      n(325)('getPrototypeOf', function() {
+      n(326)('getPrototypeOf', function() {
         return function(e) {
           return o(r(e))
         }
       })
     },
     function(e, t, n) {
-      var r = n(7),
+      var r = n(8),
         o = n(6),
         a = n(26)
       e.exports = function(e, t) {
@@ -13969,14 +13997,14 @@ object-assign
       }
     },
     function(e, t, n) {
-      e.exports = { default: n(327), __esModule: !0 }
+      e.exports = { default: n(328), __esModule: !0 }
     },
     function(e, t, n) {
-      n(328), (e.exports = n(6).Object.setPrototypeOf)
+      n(329), (e.exports = n(6).Object.setPrototypeOf)
     },
     function(e, t, n) {
-      var r = n(7)
-      r(r.S, 'Object', { setPrototypeOf: n(329).set })
+      var r = n(8)
+      r(r.S, 'Object', { setPrototypeOf: n(330).set })
     },
     function(e, t, n) {
       var r = n(21),
@@ -14008,17 +14036,17 @@ object-assign
       }
     },
     function(e, t, n) {
-      e.exports = { default: n(331), __esModule: !0 }
+      e.exports = { default: n(332), __esModule: !0 }
     },
     function(e, t, n) {
-      n(332)
+      n(333)
       var r = n(6).Object
       e.exports = function(e, t) {
         return r.create(e, t)
       }
     },
     function(e, t, n) {
-      var r = n(7)
+      var r = n(8)
       r(r.S, 'Object', { create: n(55) })
     },
     function(e, t, n) {
@@ -14067,7 +14095,7 @@ object-assign
       Object.defineProperty(t, '__esModule', { value: !0 })
       var o = n(1),
         a = r(o),
-        i = n(335),
+        i = n(336),
         u = r(i),
         s = n(114),
         l = r(s)
@@ -14286,17 +14314,17 @@ object-assign
         : ((r.tags.open = s), (r.tags.close = l)), r.reset()
     },
     function(e, t, n) {
-      n(28), n(337), (e.exports = n(6).Array.from)
+      n(28), n(338), (e.exports = n(6).Array.from)
     },
     function(e, t, n) {
       'use strict'
       var r = n(19),
-        o = n(7),
+        o = n(8),
         a = n(46),
         i = n(121),
         u = n(122),
         s = n(56),
-        l = n(338),
+        l = n(339),
         c = n(82)
       o(
         o.S +
@@ -14619,11 +14647,11 @@ object-assign
       Object.defineProperty(t, '__esModule', { value: !0 })
       var o = n(1),
         a = r(o),
-        i = n(342),
+        i = n(343),
         u = r(i),
-        s = n(349),
+        s = n(350),
         l = r(s),
-        c = n(350),
+        c = n(176),
         f = r(c),
         p = n(351),
         d = r(p),
@@ -14637,25 +14665,25 @@ object-assign
         x = r(b),
         E = n(356),
         w = r(E),
-        C = n(358),
+        C = n(359),
         k = r(C),
-        T = n(359),
+        T = n(360),
         P = r(T),
-        S = n(360),
+        S = n(361),
         M = r(S),
-        N = n(361),
+        N = n(362),
         O = r(N),
-        I = n(362),
+        I = n(363),
         R = r(I),
-        A = n(363),
+        A = n(364),
         j = r(A),
-        D = n(364),
+        D = n(365),
         L = r(D),
-        U = n(365),
+        U = n(366),
         F = r(U),
-        H = n(367),
+        H = n(368),
         V = r(H),
-        B = n(368),
+        B = n(369),
         z = r(B)
       t.default = function(e) {
         return a.default.createElement(
@@ -14667,7 +14695,6 @@ object-assign
             a.default.createElement(_.default, null),
             a.default.createElement(x.default, null),
             a.default.createElement(w.default, null),
-            a.default.createElement('hr', null),
             a.default.createElement(u.default, null),
             a.default.createElement(
               P.default,
@@ -14779,29 +14806,29 @@ object-assign
         return e && e.__esModule ? e : { default: e }
       }
       Object.defineProperty(t, '__esModule', { value: !0 })
-      var o = n(8),
+      var o = n(7),
         a = r(o),
         i = n(1),
         u = r(i)
       t.default = function(e) {
         return u.default.createElement(
           'div',
-          { className: 'caption', 'data-jsx': 2898135464 },
+          { className: 'caption', 'data-jsx': 3967551528 },
           u.default.createElement(
             'p',
-            { 'data-jsx': 2898135464 },
+            { 'data-jsx': 3967551528 },
             'A comparison of CSS approaches in React'
           ),
           u.default.createElement(a.default, {
-            styleId: 2898135464,
+            styleId: 3967551528,
             css:
-              '.caption[data-jsx="2898135464"]{text-align:center;font-size:1.3em;text-transform:uppercase;-webkit-letter-spacing:1px;-moz-letter-spacing:1px;-ms-letter-spacing:1px;letter-spacing:1px;padding:40px 0 15px 0}p[data-jsx="2898135464"]{margin:0}'
+              '.caption[data-jsx="3967551528"]{text-align:center;font-size:1.3em;text-transform:uppercase;-webkit-letter-spacing:1px;-moz-letter-spacing:1px;-ms-letter-spacing:1px;letter-spacing:1px;padding:40px 0 15px 0;border-top:1px solid #fff}p[data-jsx="3967551528"]{margin:0}'
           })
         )
       }
     },
     function(e, t, n) {
-      n(59), n(28), n(30), n(344), n(345), n(346), n(347), (e.exports = n(
+      n(59), n(28), n(30), n(345), n(346), n(347), n(348), (e.exports = n(
         6
       ).Map)
     },
@@ -14830,7 +14857,7 @@ object-assign
       )
     },
     function(e, t, n) {
-      var r = n(7)
+      var r = n(8)
       r(r.P + r.R, 'Map', { toJSON: n(167)('Map') })
     },
     function(e, t, n) {
@@ -14941,7 +14968,7 @@ object-assign
         return e && e.__esModule ? e : { default: e }
       }
       Object.defineProperty(t, '__esModule', { value: !0 })
-      var o = n(8),
+      var o = n(7),
         a = r(o),
         i = n(1),
         u = r(i)
@@ -14953,29 +14980,6 @@ object-assign
             styleId: 3152263181,
             css:
               '.buffer[data-jsx="3152263181"]{display:block;-webkit-flex:none;-ms-flex:none;flex:none;height:0;width:100%;margin-top:80px;padding-top:80px;border-top:1px solid white}@media (min-width:769px){.buffer[data-jsx="3152263181"]{height:80px}}'
-          })
-        )
-      }
-    },
-    function(e, t, n) {
-      'use strict'
-      function r(e) {
-        return e && e.__esModule ? e : { default: e }
-      }
-      Object.defineProperty(t, '__esModule', { value: !0 })
-      var o = n(8),
-        a = r(o),
-        i = n(1),
-        u = r(i)
-      t.default = function(e) {
-        return u.default.createElement(
-          'div',
-          { className: 'content', 'data-jsx': 4019021275 },
-          e.children,
-          u.default.createElement(a.default, {
-            styleId: 4019021275,
-            css:
-              '.content[data-jsx="4019021275"]{max-width:1200px;margin:auto;padding:20px}'
           })
         )
       }
@@ -15061,7 +15065,7 @@ object-assign
         return e && e.__esModule ? e : { default: e }
       }
       Object.defineProperty(t, '__esModule', { value: !0 })
-      var o = n(8),
+      var o = n(7),
         a = r(o),
         i = n(1),
         u = r(i),
@@ -15152,7 +15156,7 @@ object-assign
         return e && e.__esModule ? e : { default: e }
       }
       Object.defineProperty(t, '__esModule', { value: !0 })
-      var o = n(8),
+      var o = n(7),
         a = r(o),
         i = n(1),
         u = r(i)
@@ -15270,13 +15274,15 @@ object-assign
         return e && e.__esModule ? e : { default: e }
       }
       Object.defineProperty(t, '__esModule', { value: !0 })
-      var o = n(8),
+      var o = n(7),
         a = r(o),
         i = n(1),
         u = r(i),
         s = n(357),
         l = r(s),
-        c = function(e) {
+        c = n(358),
+        f = r(c),
+        p = function(e) {
           return u.default.createElement(
             'svg',
             {
@@ -15314,26 +15320,27 @@ object-assign
       t.default = function(e) {
         return u.default.createElement(
           'header',
-          { className: 'header', 'data-jsx': 1393354778 },
+          { className: 'header', 'data-jsx': 2581617572 },
+          u.default.createElement(f.default, null),
           u.default.createElement(
             'div',
-            { className: 'logoContainer', 'data-jsx': 1393354778 },
+            { className: 'logoContainer', 'data-jsx': 2581617572 },
             u.default.createElement(l.default, null),
-            u.default.createElement(c, null)
+            u.default.createElement(p, null)
           ),
           u.default.createElement(
             'h1',
-            { className: 'title', 'data-jsx': 1393354778 },
+            { className: 'title', 'data-jsx': 2581617572 },
             'Styling',
-            u.default.createElement('br', { 'data-jsx': 1393354778 }),
+            u.default.createElement('br', { 'data-jsx': 2581617572 }),
             'React',
-            u.default.createElement('br', { 'data-jsx': 1393354778 }),
+            u.default.createElement('br', { 'data-jsx': 2581617572 }),
             ' Components'
           ),
           u.default.createElement(a.default, {
-            styleId: 1393354778,
+            styleId: 2581617572,
             css:
-              '.header[data-jsx="1393354778"]{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.title[data-jsx="1393354778"]{color:white;text-transform:uppercase;font-size:2.9em;max-width:100%;text-shadow:-1px -1px 0 #61dafb,-2px -2px 0 #61dafb, -3px -3px 0 #61dafb}.logoContainer[data-jsx="1393354778"]{width:100%;position:relative;height:100%}@media screen and (min-width:650px){.header[data-jsx="1393354778"]{-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row}.title[data-jsx="1393354778"]{-webkit-flex:1;-ms-flex:1;flex:1;font-size:3.1em}}@media screen and (min-width:1024px){.title[data-jsx="1393354778"]{font-size:3.7em}}'
+              '.header[data-jsx="2581617572"]{position:relative;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.title[data-jsx="2581617572"]{color:white;text-transform:uppercase;font-size:3.375em;max-width:100%;text-shadow:-1px -1px 0 #61dafb,-2px -2px 0 #61dafb, -3px -3px 0 #61dafb;text-align:center}.logoContainer[data-jsx="2581617572"]{width:100%;position:relative;height:100%}@media screen and (min-width:650px){.header[data-jsx="2581617572"]{-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row}.title[data-jsx="2581617572"]{-webkit-flex:1;-ms-flex:1;flex:1;text-align:left}}@media screen and (min-width:1024px){.title[data-jsx="2581617572"]{font-size:3.75em}}'
           })
         )
       }
@@ -15344,7 +15351,7 @@ object-assign
         return e && e.__esModule ? e : { default: e }
       }
       Object.defineProperty(t, '__esModule', { value: !0 })
-      var o = n(8),
+      var o = n(7),
         a = r(o),
         i = n(1),
         u = r(i)
@@ -15361,6 +15368,31 @@ object-assign
             styleId: 1250690217,
             css:
               '.glasses[data-jsx="1250690217"]{position:absolute;z-index:1;margin:18% 20vw 18% 20vw}.glassesImg[data-jsx="1250690217"]{width:100%;-webkit-animation:falldatajsx1250690217 5s 0.5s forwards;animation:falldatajsx1250690217 5s 0.5s forwards;-webkit-transform:translate3d(0,-500px,0);-ms-transform:translate3d(0,-500px,0);transform:translate3d(0,-500px,0)}@-webkit-keyframes falldatajsx1250690217{100%{-webkit-transform:translate3d(0,0,0);-ms-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}}@keyframes falldatajsx1250690217{100%{-webkit-transform:translate3d(0,0,0);-ms-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}}@media screen and (min-width:650px){.glasses[data-jsx="1250690217"]{margin:30% 0 0 0}}@media screen and (min-width:1024px){.title[data-jsx="1250690217"]{font-size:3.7em}}'
+          })
+        )
+      }
+    },
+    function(e, t, n) {
+      'use strict'
+      function r(e) {
+        return e && e.__esModule ? e : { default: e }
+      }
+      Object.defineProperty(t, '__esModule', { value: !0 })
+      var o = n(7),
+        a = r(o),
+        i = n(1),
+        u = r(i),
+        s = n(176)
+      t.default = function(e) {
+        return u.default.createElement(
+          'div',
+          { className: 'light', 'data-jsx': 1806544406 },
+          u.default.createElement(a.default, {
+            styleId: 1806544406,
+            css:
+              '.light[data-jsx="1806544406"]{position:absolute;top:0;right:-10vw;height:100%;width:calc(100% + 10vw + ' +
+              s.padding +
+              ');background:url(/static/img/gradient.png) no-repeat top right}'
           })
         )
       }
@@ -15400,7 +15432,7 @@ object-assign
         return e && e.__esModule ? e : { default: e }
       }
       Object.defineProperty(t, '__esModule', { value: !0 })
-      var o = n(8),
+      var o = n(7),
         a = r(o),
         i = n(1),
         u = r(i)
@@ -15453,7 +15485,7 @@ object-assign
         return e && e.__esModule ? e : { default: e }
       }
       Object.defineProperty(t, '__esModule', { value: !0 })
-      var o = n(8),
+      var o = n(7),
         a = r(o),
         i = n(1),
         u = r(i)
@@ -15476,7 +15508,7 @@ object-assign
         return e && e.__esModule ? e : { default: e }
       }
       Object.defineProperty(t, '__esModule', { value: !0 })
-      var o = n(8),
+      var o = n(7),
         a = r(o),
         i = n(1),
         u = r(i)
@@ -15504,7 +15536,7 @@ object-assign
         return e && e.__esModule ? e : { default: e }
       }
       Object.defineProperty(t, '__esModule', { value: !0 })
-      var o = n(8),
+      var o = n(7),
         a = r(o),
         i = n(1),
         u = r(i),
@@ -15546,7 +15578,7 @@ object-assign
         return e && e.__esModule ? e : { default: e }
       }
       Object.defineProperty(t, '__esModule', { value: !0 })
-      var o = n(8),
+      var o = n(7),
         a = r(o),
         i = n(1),
         u = r(i)
@@ -15638,11 +15670,11 @@ object-assign
         return e && e.__esModule ? e : { default: e }
       }
       Object.defineProperty(t, '__esModule', { value: !0 })
-      var o = n(8),
+      var o = n(7),
         a = r(o),
         i = n(1),
         u = r(i),
-        s = n(366),
+        s = n(367),
         l = r(s)
       t.default = function(e) {
         return u.default.createElement(
@@ -15706,7 +15738,7 @@ object-assign
         return e && e.__esModule ? e : { default: e }
       }
       Object.defineProperty(t, '__esModule', { value: !0 })
-      var o = n(8),
+      var o = n(7),
         a = r(o),
         i = n(1),
         u = r(i)
@@ -15738,7 +15770,7 @@ object-assign
         return e && e.__esModule ? e : { default: e }
       }
       Object.defineProperty(t, '__esModule', { value: !0 })
-      var o = n(8),
+      var o = n(7),
         a = r(o),
         i = n(1),
         u = r(i)
@@ -15778,7 +15810,7 @@ object-assign
         return e && e.__esModule ? e : { default: e }
       }
       Object.defineProperty(t, '__esModule', { value: !0 })
-      var o = n(8),
+      var o = n(7),
         a = r(o),
         i = n(1),
         u = r(i)
@@ -15805,7 +15837,7 @@ object-assign
     },
     function(e, t, n) {
       'use strict'
-      e.exports = n(370)
+      e.exports = n(371)
     },
     function(e, t, n) {
       'use strict'
@@ -15827,7 +15859,7 @@ object-assign
         m = r(h),
         v = n(70),
         y = r(v),
-        g = n(371),
+        g = n(372),
         _ = r(g),
         b = n(114),
         x = r(b),
@@ -16055,7 +16087,7 @@ object-assign
     },
     function(e, t, n) {
       'use strict'
-      e.exports = n(373)
+      e.exports = n(374)
     },
     function(e, t, n) {
       'use strict'
@@ -16084,9 +16116,9 @@ object-assign
         g = r(y),
         _ = n(70),
         b = r(_),
-        x = n(374),
+        x = n(375),
         E = r(x),
-        w = n(375),
+        w = n(376),
         C = r(w),
         k = (function(e) {
           function t() {
@@ -16402,7 +16434,7 @@ object-assign
       }
     },
     function(e, t, n) {
-      e.exports = n(376)
+      e.exports = n(377)
     },
     function(e, t, n) {
       'use strict'
@@ -16480,17 +16512,17 @@ object-assign
         p = n(174)
     },
     function(e, t, n) {
-      e.exports = n(176)
+      e.exports = n(177)
     },
     function(e, t, n) {
-      e.exports = n(341)
+      e.exports = n(342)
     },
     function(e, t, n) {
-      e.exports = n(369)
+      e.exports = n(370)
     },
     function(e, t, n) {
-      e.exports = n(372)
+      e.exports = n(373)
     }
   ]
 )
-module.exports = webpackJsonp([1], [], [377])
+module.exports = webpackJsonp([1], [], [378])
