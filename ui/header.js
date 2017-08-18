@@ -1,4 +1,6 @@
 import Glasses from './glasses'
+import Light from './light'
+
 const Logo = _ =>
   <svg
     className="logo"
@@ -28,6 +30,7 @@ const Logo = _ =>
 
 export default _ =>
   <header className="header">
+    <Light />
     <div className="logoContainer">
       <Glasses />
       <Logo />
@@ -37,6 +40,7 @@ export default _ =>
     </h1>
     <style jsx>{`
       .header {
+        position: relative;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -45,10 +49,11 @@ export default _ =>
       .title {
         color: white;
         text-transform: uppercase;
-        font-size: 2.9em;
+        font-size: 3.375em;
         max-width: 100%;
         text-shadow: -1px -1px 0 #61dafb, -2px -2px 0 #61dafb,
           -3px -3px 0 #61dafb;
+        text-align: center;
       }
       .logoContainer {
         width: 100%;
@@ -61,12 +66,12 @@ export default _ =>
         }
         .title {
           flex: 1;
-          font-size: 3.1em;
+          text-align: left;
         }
       }
       @media screen and (min-width: 1024px) {
         .title {
-          font-size: 3.7em;
+          font-size: 3.75em;
         }
       }
     `}</style>

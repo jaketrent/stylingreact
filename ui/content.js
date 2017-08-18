@@ -1,3 +1,5 @@
+export const padding = '20px'
+
 export default props =>
   <div className="content">
     {props.children}
@@ -5,7 +7,7 @@ export default props =>
       .content {
         max-width: 1200px;
         margin: auto;
-        padding: 20px;
+        padding: ${padding};
       }
     `}</style>
   </div>

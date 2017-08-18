@@ -22,11 +22,9 @@ export default _ =>
   <div>
     <Content>
       <GlobalStyles />
-
       <Head />
 
       <Header />
-      <hr />
       <Caption />
 
       <Main>
