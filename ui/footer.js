@@ -38,7 +38,9 @@ export default _ =>
   <div className="footer">
     <div className="wrapper">
       <p className="tag">a course by</p>
-      <img className="logo" src="../static/img/jaketrent-logo-white.png" />
+      <a href="http://jaketrent.com">
+        <img className="logo" src="../static/img/jaketrent-logo-white.png" />
+      </a>
 
       <div className="copy-wrapper">
         <div className="copy">
@@ -50,6 +52,9 @@ export default _ =>
     </div>
     <Logo2 />
     <style jsx>{`
+      a {
+        border-bottom: none;
+      }
       .footer {
         margin: 5em 0 2em 0;
         justify-content: space-around;
