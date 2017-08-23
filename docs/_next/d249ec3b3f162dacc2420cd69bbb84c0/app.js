@@ -15074,7 +15074,9 @@ object-assign
             {
               key: 'render',
               value: function() {
-                return m.default.createElement(e, this.props)
+                return console.log(
+                  'My path ' + this.lastTrackedPath
+                ), m.default.createElement(e, this.props)
               }
             }
           ]), n
