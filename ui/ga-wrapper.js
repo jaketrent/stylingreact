@@ -36,6 +36,7 @@ export default WrappedComponent =>
     }
 
     render() {
+      console.log('My path ' + this.lastTrackedPath)
       return <WrappedComponent {...this.props} />
     }
   }
