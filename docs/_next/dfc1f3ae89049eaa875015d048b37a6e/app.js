@@ -15325,27 +15325,27 @@ object-assign
       t.default = function(e) {
         return u.default.createElement(
           'header',
-          { className: 'header', 'data-jsx': 2581617572 },
+          { className: 'header', 'data-jsx': 2742419515 },
           u.default.createElement(f.default, null),
           u.default.createElement(
             'div',
-            { className: 'logoContainer', 'data-jsx': 2581617572 },
+            { className: 'logoContainer', 'data-jsx': 2742419515 },
             u.default.createElement(l.default, null),
             u.default.createElement(p, null)
           ),
           u.default.createElement(
             'h1',
-            { className: 'title', 'data-jsx': 2581617572 },
+            { className: 'title', 'data-jsx': 2742419515 },
             'Styling',
-            u.default.createElement('br', { 'data-jsx': 2581617572 }),
+            u.default.createElement('br', { 'data-jsx': 2742419515 }),
             'React',
-            u.default.createElement('br', { 'data-jsx': 2581617572 }),
+            u.default.createElement('br', { 'data-jsx': 2742419515 }),
             ' Components'
           ),
           u.default.createElement(a.default, {
-            styleId: 2581617572,
+            styleId: 2742419515,
             css:
-              '.header[data-jsx="2581617572"]{position:relative;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.title[data-jsx="2581617572"]{color:white;text-transform:uppercase;font-size:3.375em;max-width:100%;text-shadow:-1px -1px 0 #61dafb,-2px -2px 0 #61dafb, -3px -3px 0 #61dafb;text-align:center}.logoContainer[data-jsx="2581617572"]{width:100%;position:relative;height:100%}@media screen and (min-width:650px){.header[data-jsx="2581617572"]{-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row}.title[data-jsx="2581617572"]{-webkit-flex:1;-ms-flex:1;flex:1;text-align:left}}@media screen and (min-width:1024px){.title[data-jsx="2581617572"]{font-size:3.75em}}'
+              '.header[data-jsx="2742419515"]{position:relative;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.title[data-jsx="2742419515"]{color:white;text-transform:uppercase;font-size:2.5em;max-width:100%;text-shadow:-1px -1px 0 #61dafb,-2px -2px 0 #61dafb, -3px -3px 0 #61dafb;text-align:center}.logoContainer[data-jsx="2742419515"]{width:100%;position:relative}@media screen and (min-width:414px){.title[data-jsx="2742419515"]{font-size:3.375em}}@media screen and (min-width:650px){.header[data-jsx="2742419515"]{-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row}.title[data-jsx="2742419515"]{-webkit-flex:1;-ms-flex:1;flex:1;text-align:left}}@media screen and (min-width:1024px){.title[data-jsx="2742419515"]{font-size:3.75em}}'
           })
         )
       }
@@ -15652,14 +15652,16 @@ object-assign
           u.default.createElement(
             'div',
             { className: 'clear', 'data-jsx': 1648531425 },
-            u.default.createElement('input', {
-              type: 'submit',
-              value: 'Subscribe',
-              name: 'subscribe',
-              id: 'mc-embedded-subscribe',
-              className: 'mail__button',
-              'data-jsx': 1648531425
-            })
+            u.default.createElement(
+              'button',
+              {
+                name: 'subscribe',
+                id: 'mc-embedded-subscribe',
+                className: 'mail__button',
+                'data-jsx': 1648531425
+              },
+              'Subscribe'
+            )
           ),
           u.default.createElement(a.default, {
             styleId: 1648531425,
