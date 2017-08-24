@@ -1,6 +1,6 @@
-import GaWrapper from './ga-wrapper'
 export const padding = '20px'
-const Content = props => {
+
+export default props => {
   return (
     <div className="content">
       {props.children}
@@ -14,5 +14,3 @@ const Content = props => {
     </div>
   )
 }
-
-export default GaWrapper(Content)

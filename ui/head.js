@@ -43,4 +43,6 @@ export default _ =>
       href="https://fonts.googleapis.com/css?family=Libre+Franklin:400i,700"
       rel="stylesheet"
     />
+
+    <script src="/static/js/ga.js" />
   </Head>
