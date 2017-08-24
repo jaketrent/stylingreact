@@ -58,7 +58,6 @@ export default _ =>
       .logoContainer {
         width: 100%;
         position: relative;
-        height: 100%;
       }
       @media screen and (min-width: 650px) {
         .header {
