@@ -49,7 +49,7 @@ export default _ =>
       .title {
         color: white;
         text-transform: uppercase;
-        font-size: 3.375em;
+        font-size: 2.5em;
         max-width: 100%;
         text-shadow: -1px -1px 0 #61dafb, -2px -2px 0 #61dafb,
           -3px -3px 0 #61dafb;
@@ -58,6 +58,11 @@ export default _ =>
       .logoContainer {
         width: 100%;
         position: relative;
+      }
+      @media screen and (min-width: 414px) {
+        .title {
+          font-size: 3.375em;
+        }
       }
       @media screen and (min-width: 650px) {
         .header {
