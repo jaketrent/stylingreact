@@ -33,13 +33,13 @@ export default _ =>
       />
     </div>
     <div className="clear">
-      <input
-        type="submit"
-        value="Subscribe"
+      <button
         name="subscribe"
         id="mc-embedded-subscribe"
         className="mail__button"
-      />
+      >
+        Subscribe
+      </button>
     </div>
     <style jsx>{`
       .title {
