@@ -1,6 +1,6 @@
 export default props =>
   <div className="listItem">
-    <a className="name" href={props.link}>
+    <a className="link" href={props.link}>
       {props.name}
     </a>
     <p className="time">
@@ -15,7 +15,11 @@ export default props =>
       .time {
         margin: 0;
       }
-     
+      .link:hover {
+        background: #61dafb;
+        color: #fff;
+        text-shadow: -1px -1px 0 blue;
+      }
     }
     `}</style>
   </div>
