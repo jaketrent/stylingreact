@@ -15,9 +15,10 @@ const Logo = _ =>
     <style jsx>{`
       .logo {
         fill: #61dafb;
-        width: auto;
-        height: auto;
-        margin: 0 20vw;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
         position: relative;
       }
       @media screen and (min-width: 650px) {
@@ -57,6 +58,8 @@ export default _ =>
       }
       .logoContainer {
         width: 100%;
+        display: block;
+        height: auto;
         position: relative;
       }
       @media screen and (min-width: 414px) {

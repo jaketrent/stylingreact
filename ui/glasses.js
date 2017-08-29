@@ -5,7 +5,7 @@ export default _ =>
       .glasses {
         position: absolute;
         z-index: 1;
-        margin: 18% 20vw 18% 20vw;
+        margin: 34% auto;
       }
       .glassesImg {
         width: 100%;
@@ -15,16 +15,6 @@ export default _ =>
       @keyframes fall {
         100% {
           transform: translate3d(0, 0, 0);
-        }
-      }
-      @media screen and (min-width: 650px) {
-        .glasses {
-          margin: 30% 0 0 0;
-        }
-      }
-      @media screen and (min-width: 1024px) {
-        .title {
-          font-size: 3.7em;
         }
       }
     `}</style>
