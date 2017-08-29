@@ -30,7 +30,7 @@ export default _ =>
       <Main>
         <Section>
           <SectionHeader icon={<InlineCss />}>Inline Styles</SectionHeader>
-          <SectionBody src="http://lorempixel.com/500/300/abstract/1">
+          <SectionBody src="https://www.youtube.com/embed/uG5qQ-X4LyY?rel=0">
             In the traditional world of CSS, inline styles are a no-no. But in
             the new world of components in UIs, inline styles have some
             advantages. Christopher Chedeau gave his exposition on what problems
@@ -42,7 +42,7 @@ export default _ =>
 
         <Section>
           <SectionHeader icon={<Radium />}>Radium</SectionHeader>
-          <SectionBody src="http://lorempixel.com/500/300/abstract/2/">
+          <SectionBody src="https://www.youtube.com/embed/b6VyUAwslZM?rel=0">
             Radium provides a step up from vanilla inline styles. By using this
             library you get extra features available for use that you didn't
             have before. Radium is one of the pioneers in this enhanced inline
@@ -55,7 +55,7 @@ export default _ =>
           <SectionHeader icon={<ExternalCss />}>
             External Stylesheet
           </SectionHeader>
-          <SectionBody src="http://lorempixel.com/500/300/abstract/3">
+          <SectionBody src="https://www.youtube.com/embed/W5_g2t3F2DM?rel=0">
             If you're just getting into React and want to keep your CSS story as
             it has been traditionally, regular CSS in an external stylesheet
             will feel super familiar. This route will ensure you can use your
@@ -67,7 +67,7 @@ export default _ =>
 
         <Section>
           <SectionHeader icon={<CssModules />}>CSS Modules</SectionHeader>
-          <SectionBody src="http://lorempixel.com/500/300/abstract/4">
+          <SectionBody src="https://www.youtube.com/embed/bL_gMVMWSt8?rel=0">
             Once you taste CSS modules, there will be no going back. In a
             surprisingly-simple, genius way, CSS modules allow you to separate
             and compartmentalize your CSS. This allows you to make isolated
