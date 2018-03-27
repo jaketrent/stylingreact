@@ -5,32 +5,32 @@ export default _ =>
     <ListItem
       name="UIs in React"
       time="7:37"
-      link="http://bit.ly/jaketrent-stylingreact-module1"
+      link="http://bit.ly/jaketrent-stylingreact-toc"
     />
     <ListItem
       name="Inline Styles"
       time="24:38"
-      link="http://bit.ly/jaketrent-stylingreact-module2"
+      link="http://bit.ly/jaketrent-stylingreact-toc"
     />
     <ListItem
       name="Radium"
       time="13:13"
-      link="http://bit.ly/jaketrent-stylingreact-module3"
+      link="http://bit.ly/jaketrent-stylingreact-toc"
     />
     <ListItem
       name="A Webpack Intro for CSS"
       time="8:29"
-      link="http://bit.ly/jaketrent-stylingreact-module4"
+      link="http://bit.ly/jaketrent-stylingreact-toc"
     />
     <ListItem
       name="CSS Stylesheet"
       time="13:37"
-      link="http://bit.ly/jaketrent-stylingreact-module5"
+      link="http://bit.ly/jaketrent-stylingreact-toc"
     />
     <ListItem
       name="CSS Modules"
       time="20:26"
-      link="http://bit.ly/jaketrent-stylingreact-module6"
+      link="http://bit.ly/jaketrent-stylingreact-toc"
     />
     <div className="totalContainer">
       <p className="total">Total Time</p>

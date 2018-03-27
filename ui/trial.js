@@ -1,7 +1,7 @@
 export default _ =>
   <div className="trial">
     <div className="container">
-      <a className="link" href="http://bit.ly/pluralsight-create-the-future">
+      <a className="link" href="http://bit.ly/pluralsight-trial">
         Try Pluralsight
       </a>
       <p className="caption">free for 10 days</p>
